@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use LiveLLM in your research or benchmarks, please cite it as below."
+authors:
+  - family-names: "Adıgüzel"
+    given-names: "Dr. Sadık Barış"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Antalya Training and Research Hospital"
+title: "LiveLLM: Measuring Performance Degradation, Quantization Drift, and Temporal Diurnal Fluctuations in Large Language Models"
+version: 1.0.0
+date-released: 2026-09-13
+url: "https://github.com/sadikbarisadiguzel/livellm"
+keywords:
+  - large language models
+  - continuous benchmarking
+  - model degradation
+  - nerf detection
+  - diurnal fluctuations
+  - statistical process control
+  - page-hinkley
