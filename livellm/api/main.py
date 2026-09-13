@@ -56,6 +56,10 @@ def health_check():
 if os.path.exists(FRONTEND_DIR):
     app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")
 
+    data_dir = os.path.join(FRONTEND_DIR, "data")
+    if os.path.exists(data_dir):
+        app.mount("/data", StaticFiles(directory=data_dir), name="data")
+
     @app.api_route("/", methods=["GET", "HEAD"])
     def serve_frontend():
         return FileResponse(os.path.join(FRONTEND_DIR, "index.html"))

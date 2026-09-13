@@ -97,9 +97,18 @@ cd livellm
 # Başlatma betiği (sanal ortamı otomatik kurar ve sunucuyu açar)
 ./run.sh
 ```
-Tarayıcınızda açın: **`http://localhost:8000`**
+Tarayıcınızda açın: **`http://localhost:8080`**
 
-### Seçenek 2: Docker ile 1-Tıkla Çalıştırma
+### Seçenek 2: Netlify Üzerinde Sıfır Maliyetli Canlı Yayın (Jamstack)
+LiveLLM, GitHub Actions cron'unun her 10 dakikada bir ürettiği statik JSON veri seti sayesinde **Netlify üzerinde $0.00 maliyetle 7/24 kesintisiz** yayınlanır.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Baro007/livellm)
+
+1. [Netlify](https://app.netlify.com) üzerinde **"Add new site" -> "Import an existing project"** diyerek **`Baro007/livellm`** deponuzu seçin.
+2. [`netlify.toml`](netlify.toml) yapılandırması sayesinde tüm ayarlar (yayın dizini: `livellm/frontend`, yönlendirmeler ve güvenlik başlıkları) otomatik uygulanır.
+3. **"Deploy LiveLLM"** butonuna tıklayın. GitHub Actions her 10 dakikada bir veri setini güncellediğinde, Netlify sitenizi otomatik olarak canlıya alır.
+
+### Seçenek 3: Docker ile Çalıştırma
 ```bash
 docker compose up -d
 ```

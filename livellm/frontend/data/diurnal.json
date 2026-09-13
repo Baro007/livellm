@@ -1,0 +1,2171 @@
+{
+  "peak_hours_utc": [
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "data": [
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 0,
+      "avg_tps": 74.22,
+      "avg_ttft_ms": 457.7,
+      "p95_ttft_ms": 618.27,
+      "p99_ttft_ms": 824.79,
+      "accuracy_rate": 0.974,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 1,
+      "avg_tps": 74.53,
+      "avg_ttft_ms": 450.49,
+      "p95_ttft_ms": 608.22,
+      "p99_ttft_ms": 811.04,
+      "accuracy_rate": 0.973,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 2,
+      "avg_tps": 75.83,
+      "avg_ttft_ms": 442.66,
+      "p95_ttft_ms": 597.6,
+      "p99_ttft_ms": 796.81,
+      "accuracy_rate": 0.95,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 3,
+      "avg_tps": 75.15,
+      "avg_ttft_ms": 462.77,
+      "p95_ttft_ms": 624.74,
+      "p99_ttft_ms": 832.99,
+      "accuracy_rate": 0.979,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 4,
+      "avg_tps": 75.68,
+      "avg_ttft_ms": 457.26,
+      "p95_ttft_ms": 617.3,
+      "p99_ttft_ms": 823.07,
+      "accuracy_rate": 0.965,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 5,
+      "avg_tps": 75.66,
+      "avg_ttft_ms": 437.1,
+      "p95_ttft_ms": 590.09,
+      "p99_ttft_ms": 786.79,
+      "accuracy_rate": 0.963,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 6,
+      "avg_tps": 76.39,
+      "avg_ttft_ms": 444.44,
+      "p95_ttft_ms": 600.0,
+      "p99_ttft_ms": 800.01,
+      "accuracy_rate": 0.979,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 7,
+      "avg_tps": 74.23,
+      "avg_ttft_ms": 444.16,
+      "p95_ttft_ms": 599.67,
+      "p99_ttft_ms": 799.64,
+      "accuracy_rate": 0.966,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 8,
+      "avg_tps": 74.14,
+      "avg_ttft_ms": 447.92,
+      "p95_ttft_ms": 605.05,
+      "p99_ttft_ms": 807.16,
+      "accuracy_rate": 0.955,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 9,
+      "avg_tps": 76.58,
+      "avg_ttft_ms": 451.6,
+      "p95_ttft_ms": 611.38,
+      "p99_ttft_ms": 817.18,
+      "accuracy_rate": 0.977,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 10,
+      "avg_tps": 74.77,
+      "avg_ttft_ms": 477.37,
+      "p95_ttft_ms": 651.39,
+      "p99_ttft_ms": 876.63,
+      "accuracy_rate": 0.96,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 11,
+      "avg_tps": 70.85,
+      "avg_ttft_ms": 499.05,
+      "p95_ttft_ms": 696.35,
+      "p99_ttft_ms": 954.86,
+      "accuracy_rate": 0.955,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 12,
+      "avg_tps": 69.86,
+      "avg_ttft_ms": 568.54,
+      "p95_ttft_ms": 832.85,
+      "p99_ttft_ms": 1186.68,
+      "accuracy_rate": 0.961,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 13,
+      "avg_tps": 63.52,
+      "avg_ttft_ms": 697.58,
+      "p95_ttft_ms": 1106.91,
+      "p99_ttft_ms": 1668.6,
+      "accuracy_rate": 0.927,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 14,
+      "avg_tps": 57.75,
+      "avg_ttft_ms": 865.95,
+      "p95_ttft_ms": 1512.74,
+      "p99_ttft_ms": 2417.97,
+      "accuracy_rate": 0.929,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 15,
+      "avg_tps": 47.64,
+      "avg_ttft_ms": 1008.26,
+      "p95_ttft_ms": 1906.73,
+      "p99_ttft_ms": 3178.81,
+      "accuracy_rate": 0.898,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 16,
+      "avg_tps": 45.84,
+      "avg_ttft_ms": 1083.99,
+      "p95_ttft_ms": 2113.78,
+      "p99_ttft_ms": 3577.16,
+      "accuracy_rate": 0.903,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 17,
+      "avg_tps": 49.99,
+      "avg_ttft_ms": 1025.7,
+      "p95_ttft_ms": 1939.71,
+      "p99_ttft_ms": 3233.8,
+      "accuracy_rate": 0.887,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 18,
+      "avg_tps": 54.24,
+      "avg_ttft_ms": 857.73,
+      "p95_ttft_ms": 1498.37,
+      "p99_ttft_ms": 2395.01,
+      "accuracy_rate": 0.907,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 19,
+      "avg_tps": 65.15,
+      "avg_ttft_ms": 697.88,
+      "p95_ttft_ms": 1107.4,
+      "p99_ttft_ms": 1669.32,
+      "accuracy_rate": 0.921,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 20,
+      "avg_tps": 70.06,
+      "avg_ttft_ms": 568.08,
+      "p95_ttft_ms": 832.17,
+      "p99_ttft_ms": 1185.71,
+      "accuracy_rate": 0.942,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 21,
+      "avg_tps": 72.82,
+      "avg_ttft_ms": 503.5,
+      "p95_ttft_ms": 702.56,
+      "p99_ttft_ms": 963.38,
+      "accuracy_rate": 0.954,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 22,
+      "avg_tps": 72.33,
+      "avg_ttft_ms": 469.96,
+      "p95_ttft_ms": 641.29,
+      "p99_ttft_ms": 863.04,
+      "accuracy_rate": 0.978,
+      "sample_count": 480
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "hour_utc": 23,
+      "avg_tps": 73.25,
+      "avg_ttft_ms": 462.09,
+      "p95_ttft_ms": 625.58,
+      "p99_ttft_ms": 836.15,
+      "accuracy_rate": 0.966,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 0,
+      "avg_tps": 67.9,
+      "avg_ttft_ms": 522.12,
+      "p95_ttft_ms": 705.29,
+      "p99_ttft_ms": 940.88,
+      "accuracy_rate": 0.927,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 1,
+      "avg_tps": 67.07,
+      "avg_ttft_ms": 527.1,
+      "p95_ttft_ms": 711.66,
+      "p99_ttft_ms": 948.96,
+      "accuracy_rate": 0.944,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 2,
+      "avg_tps": 66.35,
+      "avg_ttft_ms": 529.95,
+      "p95_ttft_ms": 715.44,
+      "p99_ttft_ms": 953.93,
+      "accuracy_rate": 0.945,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 3,
+      "avg_tps": 67.86,
+      "avg_ttft_ms": 512.32,
+      "p95_ttft_ms": 691.63,
+      "p99_ttft_ms": 922.18,
+      "accuracy_rate": 0.934,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 4,
+      "avg_tps": 66.11,
+      "avg_ttft_ms": 516.37,
+      "p95_ttft_ms": 697.1,
+      "p99_ttft_ms": 929.47,
+      "accuracy_rate": 0.944,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 5,
+      "avg_tps": 66.85,
+      "avg_ttft_ms": 510.46,
+      "p95_ttft_ms": 689.12,
+      "p99_ttft_ms": 918.83,
+      "accuracy_rate": 0.942,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 6,
+      "avg_tps": 69.52,
+      "avg_ttft_ms": 515.23,
+      "p95_ttft_ms": 695.58,
+      "p99_ttft_ms": 927.45,
+      "accuracy_rate": 0.938,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 7,
+      "avg_tps": 66.03,
+      "avg_ttft_ms": 513.46,
+      "p95_ttft_ms": 693.24,
+      "p99_ttft_ms": 924.4,
+      "accuracy_rate": 0.948,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 8,
+      "avg_tps": 68.85,
+      "avg_ttft_ms": 508.55,
+      "p95_ttft_ms": 686.95,
+      "p99_ttft_ms": 916.41,
+      "accuracy_rate": 0.929,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 9,
+      "avg_tps": 68.6,
+      "avg_ttft_ms": 532.36,
+      "p95_ttft_ms": 720.7,
+      "p99_ttft_ms": 963.3,
+      "accuracy_rate": 0.935,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 10,
+      "avg_tps": 68.54,
+      "avg_ttft_ms": 537.38,
+      "p95_ttft_ms": 733.29,
+      "p99_ttft_ms": 986.85,
+      "accuracy_rate": 0.912,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 11,
+      "avg_tps": 66.81,
+      "avg_ttft_ms": 566.67,
+      "p95_ttft_ms": 790.69,
+      "p99_ttft_ms": 1084.24,
+      "accuracy_rate": 0.916,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 12,
+      "avg_tps": 62.94,
+      "avg_ttft_ms": 661.86,
+      "p95_ttft_ms": 969.55,
+      "p99_ttft_ms": 1381.45,
+      "accuracy_rate": 0.916,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 13,
+      "avg_tps": 58.79,
+      "avg_ttft_ms": 805.07,
+      "p95_ttft_ms": 1277.48,
+      "p99_ttft_ms": 1925.71,
+      "accuracy_rate": 0.892,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 14,
+      "avg_tps": 49.99,
+      "avg_ttft_ms": 1007.67,
+      "p95_ttft_ms": 1760.3,
+      "p99_ttft_ms": 2813.68,
+      "accuracy_rate": 0.867,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 15,
+      "avg_tps": 43.47,
+      "avg_ttft_ms": 1165.17,
+      "p95_ttft_ms": 2203.46,
+      "p99_ttft_ms": 3673.51,
+      "accuracy_rate": 0.843,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 16,
+      "avg_tps": 43.21,
+      "avg_ttft_ms": 1249.08,
+      "p95_ttft_ms": 2435.7,
+      "p99_ttft_ms": 4121.95,
+      "accuracy_rate": 0.837,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 17,
+      "avg_tps": 44.63,
+      "avg_ttft_ms": 1168.04,
+      "p95_ttft_ms": 2208.89,
+      "p99_ttft_ms": 3682.57,
+      "accuracy_rate": 0.867,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 18,
+      "avg_tps": 51.01,
+      "avg_ttft_ms": 1015.88,
+      "p95_ttft_ms": 1774.65,
+      "p99_ttft_ms": 2836.62,
+      "accuracy_rate": 0.868,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 19,
+      "avg_tps": 56.58,
+      "avg_ttft_ms": 795.32,
+      "p95_ttft_ms": 1262.01,
+      "p99_ttft_ms": 1902.39,
+      "accuracy_rate": 0.888,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 20,
+      "avg_tps": 61.11,
+      "avg_ttft_ms": 649.79,
+      "p95_ttft_ms": 951.88,
+      "p99_ttft_ms": 1356.27,
+      "accuracy_rate": 0.916,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 21,
+      "avg_tps": 67.94,
+      "avg_ttft_ms": 568.25,
+      "p95_ttft_ms": 792.9,
+      "p99_ttft_ms": 1087.26,
+      "accuracy_rate": 0.926,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 22,
+      "avg_tps": 65.88,
+      "avg_ttft_ms": 543.58,
+      "p95_ttft_ms": 741.75,
+      "p99_ttft_ms": 998.23,
+      "accuracy_rate": 0.943,
+      "sample_count": 480
+    },
+    {
+      "model_id": "deepseek-chat",
+      "hour_utc": 23,
+      "avg_tps": 69.33,
+      "avg_ttft_ms": 524.34,
+      "p95_ttft_ms": 709.85,
+      "p99_ttft_ms": 948.79,
+      "accuracy_rate": 0.932,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 0,
+      "avg_tps": 159.18,
+      "avg_ttft_ms": 251.74,
+      "p95_ttft_ms": 340.06,
+      "p99_ttft_ms": 453.64,
+      "accuracy_rate": 0.936,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 1,
+      "avg_tps": 161.64,
+      "avg_ttft_ms": 236.95,
+      "p95_ttft_ms": 319.91,
+      "p99_ttft_ms": 426.59,
+      "accuracy_rate": 0.928,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 2,
+      "avg_tps": 158.98,
+      "avg_ttft_ms": 232.96,
+      "p95_ttft_ms": 314.5,
+      "p99_ttft_ms": 419.33,
+      "accuracy_rate": 0.932,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 3,
+      "avg_tps": 160.34,
+      "avg_ttft_ms": 232.88,
+      "p95_ttft_ms": 314.39,
+      "p99_ttft_ms": 419.19,
+      "accuracy_rate": 0.946,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 4,
+      "avg_tps": 158.88,
+      "avg_ttft_ms": 236.98,
+      "p95_ttft_ms": 319.93,
+      "p99_ttft_ms": 426.57,
+      "accuracy_rate": 0.95,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 5,
+      "avg_tps": 158.36,
+      "avg_ttft_ms": 240.29,
+      "p95_ttft_ms": 324.39,
+      "p99_ttft_ms": 432.52,
+      "accuracy_rate": 0.912,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 6,
+      "avg_tps": 160.51,
+      "avg_ttft_ms": 228.3,
+      "p95_ttft_ms": 308.21,
+      "p99_ttft_ms": 410.95,
+      "accuracy_rate": 0.942,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 7,
+      "avg_tps": 158.24,
+      "avg_ttft_ms": 237.74,
+      "p95_ttft_ms": 320.99,
+      "p99_ttft_ms": 428.02,
+      "accuracy_rate": 0.925,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 8,
+      "avg_tps": 160.03,
+      "avg_ttft_ms": 255.34,
+      "p95_ttft_ms": 344.91,
+      "p99_ttft_ms": 460.12,
+      "accuracy_rate": 0.949,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 9,
+      "avg_tps": 157.66,
+      "avg_ttft_ms": 252.95,
+      "p95_ttft_ms": 342.45,
+      "p99_ttft_ms": 457.72,
+      "accuracy_rate": 0.938,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 10,
+      "avg_tps": 158.67,
+      "avg_ttft_ms": 253.6,
+      "p95_ttft_ms": 346.05,
+      "p99_ttft_ms": 465.71,
+      "accuracy_rate": 0.919,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 11,
+      "avg_tps": 153.85,
+      "avg_ttft_ms": 269.62,
+      "p95_ttft_ms": 376.22,
+      "p99_ttft_ms": 515.88,
+      "accuracy_rate": 0.921,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 12,
+      "avg_tps": 150.17,
+      "avg_ttft_ms": 302.95,
+      "p95_ttft_ms": 443.8,
+      "p99_ttft_ms": 632.34,
+      "accuracy_rate": 0.93,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 13,
+      "avg_tps": 136.01,
+      "avg_ttft_ms": 365.5,
+      "p95_ttft_ms": 579.98,
+      "p99_ttft_ms": 874.28,
+      "accuracy_rate": 0.886,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 14,
+      "avg_tps": 121.26,
+      "avg_ttft_ms": 474.65,
+      "p95_ttft_ms": 829.17,
+      "p99_ttft_ms": 1325.35,
+      "accuracy_rate": 0.869,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 15,
+      "avg_tps": 105.6,
+      "avg_ttft_ms": 547.19,
+      "p95_ttft_ms": 1034.8,
+      "p99_ttft_ms": 1725.17,
+      "accuracy_rate": 0.844,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 16,
+      "avg_tps": 99.36,
+      "avg_ttft_ms": 583.88,
+      "p95_ttft_ms": 1138.56,
+      "p99_ttft_ms": 1926.79,
+      "accuracy_rate": 0.861,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 17,
+      "avg_tps": 103.17,
+      "avg_ttft_ms": 543.93,
+      "p95_ttft_ms": 1028.64,
+      "p99_ttft_ms": 1714.9,
+      "accuracy_rate": 0.851,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 18,
+      "avg_tps": 121.5,
+      "avg_ttft_ms": 447.85,
+      "p95_ttft_ms": 782.36,
+      "p99_ttft_ms": 1250.53,
+      "accuracy_rate": 0.892,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 19,
+      "avg_tps": 135.24,
+      "avg_ttft_ms": 382.55,
+      "p95_ttft_ms": 607.03,
+      "p99_ttft_ms": 915.06,
+      "accuracy_rate": 0.881,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 20,
+      "avg_tps": 150.14,
+      "avg_ttft_ms": 315.68,
+      "p95_ttft_ms": 462.44,
+      "p99_ttft_ms": 658.91,
+      "accuracy_rate": 0.898,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 21,
+      "avg_tps": 153.68,
+      "avg_ttft_ms": 264.97,
+      "p95_ttft_ms": 369.73,
+      "p99_ttft_ms": 506.99,
+      "accuracy_rate": 0.934,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 22,
+      "avg_tps": 157.04,
+      "avg_ttft_ms": 256.13,
+      "p95_ttft_ms": 349.5,
+      "p99_ttft_ms": 470.35,
+      "accuracy_rate": 0.927,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "hour_utc": 23,
+      "avg_tps": 158.68,
+      "avg_ttft_ms": 243.62,
+      "p95_ttft_ms": 329.82,
+      "p99_ttft_ms": 440.83,
+      "accuracy_rate": 0.944,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 0,
+      "avg_tps": 183.01,
+      "avg_ttft_ms": 214.58,
+      "p95_ttft_ms": 289.85,
+      "p99_ttft_ms": 386.67,
+      "accuracy_rate": 0.941,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 1,
+      "avg_tps": 185.93,
+      "avg_ttft_ms": 201.76,
+      "p95_ttft_ms": 272.41,
+      "p99_ttft_ms": 363.25,
+      "accuracy_rate": 0.957,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 2,
+      "avg_tps": 183.35,
+      "avg_ttft_ms": 221.77,
+      "p95_ttft_ms": 299.4,
+      "p99_ttft_ms": 399.21,
+      "accuracy_rate": 0.947,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 3,
+      "avg_tps": 183.87,
+      "avg_ttft_ms": 195.9,
+      "p95_ttft_ms": 264.46,
+      "p99_ttft_ms": 352.61,
+      "accuracy_rate": 0.95,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 4,
+      "avg_tps": 183.8,
+      "avg_ttft_ms": 195.8,
+      "p95_ttft_ms": 264.32,
+      "p99_ttft_ms": 352.43,
+      "accuracy_rate": 0.956,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 5,
+      "avg_tps": 183.88,
+      "avg_ttft_ms": 211.35,
+      "p95_ttft_ms": 285.32,
+      "p99_ttft_ms": 380.43,
+      "accuracy_rate": 0.954,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 6,
+      "avg_tps": 183.02,
+      "avg_ttft_ms": 219.29,
+      "p95_ttft_ms": 296.05,
+      "p99_ttft_ms": 394.74,
+      "accuracy_rate": 0.962,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 7,
+      "avg_tps": 184.34,
+      "avg_ttft_ms": 216.01,
+      "p95_ttft_ms": 291.65,
+      "p99_ttft_ms": 388.9,
+      "accuracy_rate": 0.936,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 8,
+      "avg_tps": 184.25,
+      "avg_ttft_ms": 224.11,
+      "p95_ttft_ms": 302.73,
+      "p99_ttft_ms": 403.85,
+      "accuracy_rate": 0.934,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 9,
+      "avg_tps": 185.94,
+      "avg_ttft_ms": 199.76,
+      "p95_ttft_ms": 270.44,
+      "p99_ttft_ms": 361.47,
+      "accuracy_rate": 0.954,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 10,
+      "avg_tps": 184.21,
+      "avg_ttft_ms": 226.35,
+      "p95_ttft_ms": 308.86,
+      "p99_ttft_ms": 415.66,
+      "accuracy_rate": 0.95,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 11,
+      "avg_tps": 179.2,
+      "avg_ttft_ms": 246.41,
+      "p95_ttft_ms": 343.83,
+      "p99_ttft_ms": 471.48,
+      "accuracy_rate": 0.946,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 12,
+      "avg_tps": 172.01,
+      "avg_ttft_ms": 276.18,
+      "p95_ttft_ms": 404.58,
+      "p99_ttft_ms": 576.46,
+      "accuracy_rate": 0.949,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 13,
+      "avg_tps": 158.07,
+      "avg_ttft_ms": 328.35,
+      "p95_ttft_ms": 521.02,
+      "p99_ttft_ms": 785.4,
+      "accuracy_rate": 0.9,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 14,
+      "avg_tps": 137.65,
+      "avg_ttft_ms": 396.32,
+      "p95_ttft_ms": 692.34,
+      "p99_ttft_ms": 1106.64,
+      "accuracy_rate": 0.88,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 15,
+      "avg_tps": 120.0,
+      "avg_ttft_ms": 467.13,
+      "p95_ttft_ms": 883.39,
+      "p99_ttft_ms": 1472.75,
+      "accuracy_rate": 0.869,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 16,
+      "avg_tps": 114.16,
+      "avg_ttft_ms": 508.07,
+      "p95_ttft_ms": 990.74,
+      "p99_ttft_ms": 1676.63,
+      "accuracy_rate": 0.865,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 17,
+      "avg_tps": 120.67,
+      "avg_ttft_ms": 466.43,
+      "p95_ttft_ms": 882.07,
+      "p99_ttft_ms": 1470.55,
+      "accuracy_rate": 0.895,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 18,
+      "avg_tps": 138.93,
+      "avg_ttft_ms": 408.93,
+      "p95_ttft_ms": 714.36,
+      "p99_ttft_ms": 1141.83,
+      "accuracy_rate": 0.884,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 19,
+      "avg_tps": 155.91,
+      "avg_ttft_ms": 332.9,
+      "p95_ttft_ms": 528.24,
+      "p99_ttft_ms": 796.29,
+      "accuracy_rate": 0.914,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 20,
+      "avg_tps": 172.1,
+      "avg_ttft_ms": 280.99,
+      "p95_ttft_ms": 411.61,
+      "p99_ttft_ms": 586.48,
+      "accuracy_rate": 0.937,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 21,
+      "avg_tps": 181.06,
+      "avg_ttft_ms": 237.76,
+      "p95_ttft_ms": 331.75,
+      "p99_ttft_ms": 454.92,
+      "accuracy_rate": 0.955,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 22,
+      "avg_tps": 181.42,
+      "avg_ttft_ms": 209.0,
+      "p95_ttft_ms": 285.2,
+      "p99_ttft_ms": 383.81,
+      "accuracy_rate": 0.941,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "hour_utc": 23,
+      "avg_tps": 183.4,
+      "avg_ttft_ms": 204.89,
+      "p95_ttft_ms": 277.39,
+      "p99_ttft_ms": 370.76,
+      "accuracy_rate": 0.967,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 0,
+      "avg_tps": 94.52,
+      "avg_ttft_ms": 296.4,
+      "p95_ttft_ms": 400.37,
+      "p99_ttft_ms": 534.11,
+      "accuracy_rate": 0.925,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 1,
+      "avg_tps": 92.19,
+      "avg_ttft_ms": 308.95,
+      "p95_ttft_ms": 417.13,
+      "p99_ttft_ms": 556.22,
+      "accuracy_rate": 0.935,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 2,
+      "avg_tps": 93.31,
+      "avg_ttft_ms": 301.36,
+      "p95_ttft_ms": 406.85,
+      "p99_ttft_ms": 542.47,
+      "accuracy_rate": 0.95,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 3,
+      "avg_tps": 95.01,
+      "avg_ttft_ms": 306.38,
+      "p95_ttft_ms": 413.61,
+      "p99_ttft_ms": 551.48,
+      "accuracy_rate": 0.953,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 4,
+      "avg_tps": 92.33,
+      "avg_ttft_ms": 302.57,
+      "p95_ttft_ms": 408.47,
+      "p99_ttft_ms": 544.62,
+      "accuracy_rate": 0.921,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 5,
+      "avg_tps": 96.0,
+      "avg_ttft_ms": 311.18,
+      "p95_ttft_ms": 420.1,
+      "p99_ttft_ms": 560.13,
+      "accuracy_rate": 0.934,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 6,
+      "avg_tps": 95.12,
+      "avg_ttft_ms": 314.52,
+      "p95_ttft_ms": 424.61,
+      "p99_ttft_ms": 566.15,
+      "accuracy_rate": 0.946,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 7,
+      "avg_tps": 95.79,
+      "avg_ttft_ms": 317.73,
+      "p95_ttft_ms": 428.98,
+      "p99_ttft_ms": 572.02,
+      "accuracy_rate": 0.928,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 8,
+      "avg_tps": 92.56,
+      "avg_ttft_ms": 296.2,
+      "p95_ttft_ms": 400.1,
+      "p99_ttft_ms": 533.75,
+      "accuracy_rate": 0.925,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 9,
+      "avg_tps": 94.03,
+      "avg_ttft_ms": 317.83,
+      "p95_ttft_ms": 430.28,
+      "p99_ttft_ms": 575.12,
+      "accuracy_rate": 0.928,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 10,
+      "avg_tps": 94.2,
+      "avg_ttft_ms": 326.51,
+      "p95_ttft_ms": 445.54,
+      "p99_ttft_ms": 599.6,
+      "accuracy_rate": 0.925,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 11,
+      "avg_tps": 92.29,
+      "avg_ttft_ms": 346.02,
+      "p95_ttft_ms": 482.81,
+      "p99_ttft_ms": 662.05,
+      "accuracy_rate": 0.919,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 12,
+      "avg_tps": 89.02,
+      "avg_ttft_ms": 402.69,
+      "p95_ttft_ms": 589.9,
+      "p99_ttft_ms": 840.51,
+      "accuracy_rate": 0.909,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 13,
+      "avg_tps": 79.15,
+      "avg_ttft_ms": 467.05,
+      "p95_ttft_ms": 741.11,
+      "p99_ttft_ms": 1117.17,
+      "accuracy_rate": 0.916,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 14,
+      "avg_tps": 69.96,
+      "avg_ttft_ms": 610.84,
+      "p95_ttft_ms": 1067.09,
+      "p99_ttft_ms": 1705.64,
+      "accuracy_rate": 0.896,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 15,
+      "avg_tps": 62.55,
+      "avg_ttft_ms": 688.68,
+      "p95_ttft_ms": 1302.38,
+      "p99_ttft_ms": 2171.26,
+      "accuracy_rate": 0.873,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 16,
+      "avg_tps": 59.37,
+      "avg_ttft_ms": 732.06,
+      "p95_ttft_ms": 1427.51,
+      "p99_ttft_ms": 2415.79,
+      "accuracy_rate": 0.874,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 17,
+      "avg_tps": 60.27,
+      "avg_ttft_ms": 704.42,
+      "p95_ttft_ms": 1332.13,
+      "p99_ttft_ms": 2220.87,
+      "accuracy_rate": 0.887,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 18,
+      "avg_tps": 69.76,
+      "avg_ttft_ms": 605.58,
+      "p95_ttft_ms": 1057.89,
+      "p99_ttft_ms": 1690.93,
+      "accuracy_rate": 0.884,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 19,
+      "avg_tps": 79.93,
+      "avg_ttft_ms": 477.4,
+      "p95_ttft_ms": 757.53,
+      "p99_ttft_ms": 1141.92,
+      "accuracy_rate": 0.902,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 20,
+      "avg_tps": 88.45,
+      "avg_ttft_ms": 403.6,
+      "p95_ttft_ms": 591.23,
+      "p99_ttft_ms": 842.4,
+      "accuracy_rate": 0.909,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 21,
+      "avg_tps": 91.84,
+      "avg_ttft_ms": 356.62,
+      "p95_ttft_ms": 497.61,
+      "p99_ttft_ms": 682.35,
+      "accuracy_rate": 0.947,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 22,
+      "avg_tps": 92.88,
+      "avg_ttft_ms": 326.75,
+      "p95_ttft_ms": 445.86,
+      "p99_ttft_ms": 600.03,
+      "accuracy_rate": 0.947,
+      "sample_count": 480
+    },
+    {
+      "model_id": "gpt-4o",
+      "hour_utc": 23,
+      "avg_tps": 92.85,
+      "avg_ttft_ms": 326.71,
+      "p95_ttft_ms": 442.3,
+      "p99_ttft_ms": 591.19,
+      "accuracy_rate": 0.952,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 0,
+      "avg_tps": 290.73,
+      "avg_ttft_ms": 192.03,
+      "p95_ttft_ms": 259.4,
+      "p99_ttft_ms": 346.04,
+      "accuracy_rate": 0.896,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 1,
+      "avg_tps": 291.85,
+      "avg_ttft_ms": 183.96,
+      "p95_ttft_ms": 248.38,
+      "p99_ttft_ms": 331.2,
+      "accuracy_rate": 0.913,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 2,
+      "avg_tps": 290.99,
+      "avg_ttft_ms": 191.27,
+      "p95_ttft_ms": 258.22,
+      "p99_ttft_ms": 344.3,
+      "accuracy_rate": 0.892,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 3,
+      "avg_tps": 290.01,
+      "avg_ttft_ms": 192.53,
+      "p95_ttft_ms": 259.91,
+      "p99_ttft_ms": 346.55,
+      "accuracy_rate": 0.924,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 4,
+      "avg_tps": 291.84,
+      "avg_ttft_ms": 179.72,
+      "p95_ttft_ms": 242.63,
+      "p99_ttft_ms": 323.5,
+      "accuracy_rate": 0.893,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 5,
+      "avg_tps": 290.38,
+      "avg_ttft_ms": 180.58,
+      "p95_ttft_ms": 243.78,
+      "p99_ttft_ms": 325.04,
+      "accuracy_rate": 0.917,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 6,
+      "avg_tps": 288.48,
+      "avg_ttft_ms": 182.06,
+      "p95_ttft_ms": 245.79,
+      "p99_ttft_ms": 327.73,
+      "accuracy_rate": 0.926,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 7,
+      "avg_tps": 290.35,
+      "avg_ttft_ms": 182.45,
+      "p95_ttft_ms": 246.33,
+      "p99_ttft_ms": 328.47,
+      "accuracy_rate": 0.915,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 8,
+      "avg_tps": 290.19,
+      "avg_ttft_ms": 187.93,
+      "p95_ttft_ms": 253.86,
+      "p99_ttft_ms": 338.66,
+      "accuracy_rate": 0.911,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 9,
+      "avg_tps": 288.12,
+      "avg_ttft_ms": 204.73,
+      "p95_ttft_ms": 277.16,
+      "p99_ttft_ms": 370.45,
+      "accuracy_rate": 0.918,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 10,
+      "avg_tps": 286.91,
+      "avg_ttft_ms": 188.61,
+      "p95_ttft_ms": 257.37,
+      "p99_ttft_ms": 346.37,
+      "accuracy_rate": 0.915,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 11,
+      "avg_tps": 280.94,
+      "avg_ttft_ms": 204.1,
+      "p95_ttft_ms": 284.79,
+      "p99_ttft_ms": 390.52,
+      "accuracy_rate": 0.914,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 12,
+      "avg_tps": 268.73,
+      "avg_ttft_ms": 228.11,
+      "p95_ttft_ms": 334.16,
+      "p99_ttft_ms": 476.13,
+      "accuracy_rate": 0.915,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 13,
+      "avg_tps": 244.8,
+      "avg_ttft_ms": 309.86,
+      "p95_ttft_ms": 491.68,
+      "p99_ttft_ms": 741.18,
+      "accuracy_rate": 0.867,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 14,
+      "avg_tps": 218.83,
+      "avg_ttft_ms": 358.92,
+      "p95_ttft_ms": 627.0,
+      "p99_ttft_ms": 1002.2,
+      "accuracy_rate": 0.872,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 15,
+      "avg_tps": 190.09,
+      "avg_ttft_ms": 441.27,
+      "p95_ttft_ms": 834.49,
+      "p99_ttft_ms": 1391.23,
+      "accuracy_rate": 0.824,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 16,
+      "avg_tps": 180.61,
+      "avg_ttft_ms": 466.01,
+      "p95_ttft_ms": 908.72,
+      "p99_ttft_ms": 1537.84,
+      "accuracy_rate": 0.834,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 17,
+      "avg_tps": 191.23,
+      "avg_ttft_ms": 444.51,
+      "p95_ttft_ms": 840.62,
+      "p99_ttft_ms": 1401.44,
+      "accuracy_rate": 0.818,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 18,
+      "avg_tps": 216.3,
+      "avg_ttft_ms": 375.48,
+      "p95_ttft_ms": 655.92,
+      "p99_ttft_ms": 1048.43,
+      "accuracy_rate": 0.864,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 19,
+      "avg_tps": 245.05,
+      "avg_ttft_ms": 308.15,
+      "p95_ttft_ms": 488.96,
+      "p99_ttft_ms": 737.08,
+      "accuracy_rate": 0.863,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 20,
+      "avg_tps": 269.11,
+      "avg_ttft_ms": 229.15,
+      "p95_ttft_ms": 335.68,
+      "p99_ttft_ms": 478.29,
+      "accuracy_rate": 0.886,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 21,
+      "avg_tps": 282.54,
+      "avg_ttft_ms": 213.25,
+      "p95_ttft_ms": 297.55,
+      "p99_ttft_ms": 408.02,
+      "accuracy_rate": 0.892,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 22,
+      "avg_tps": 286.38,
+      "avg_ttft_ms": 200.48,
+      "p95_ttft_ms": 273.57,
+      "p99_ttft_ms": 368.16,
+      "accuracy_rate": 0.908,
+      "sample_count": 480
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "hour_utc": 23,
+      "avg_tps": 290.69,
+      "avg_ttft_ms": 203.84,
+      "p95_ttft_ms": 275.96,
+      "p99_ttft_ms": 368.86,
+      "accuracy_rate": 0.893,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 0,
+      "avg_tps": 46.81,
+      "avg_ttft_ms": 841.88,
+      "p95_ttft_ms": 1137.21,
+      "p99_ttft_ms": 1517.08,
+      "accuracy_rate": 0.881,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 1,
+      "avg_tps": 43.99,
+      "avg_ttft_ms": 836.78,
+      "p95_ttft_ms": 1129.77,
+      "p99_ttft_ms": 1506.5,
+      "accuracy_rate": 0.894,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 2,
+      "avg_tps": 46.21,
+      "avg_ttft_ms": 848.73,
+      "p95_ttft_ms": 1145.81,
+      "p99_ttft_ms": 1527.76,
+      "accuracy_rate": 0.887,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 3,
+      "avg_tps": 45.38,
+      "avg_ttft_ms": 864.64,
+      "p95_ttft_ms": 1167.27,
+      "p99_ttft_ms": 1556.36,
+      "accuracy_rate": 0.898,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 4,
+      "avg_tps": 45.45,
+      "avg_ttft_ms": 861.74,
+      "p95_ttft_ms": 1163.35,
+      "p99_ttft_ms": 1551.14,
+      "accuracy_rate": 0.889,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 5,
+      "avg_tps": 46.32,
+      "avg_ttft_ms": 850.15,
+      "p95_ttft_ms": 1147.7,
+      "p99_ttft_ms": 1530.27,
+      "accuracy_rate": 0.882,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 6,
+      "avg_tps": 45.97,
+      "avg_ttft_ms": 861.96,
+      "p95_ttft_ms": 1163.66,
+      "p99_ttft_ms": 1551.56,
+      "accuracy_rate": 0.879,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 7,
+      "avg_tps": 43.98,
+      "avg_ttft_ms": 843.05,
+      "p95_ttft_ms": 1138.24,
+      "p99_ttft_ms": 1517.79,
+      "accuracy_rate": 0.885,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 8,
+      "avg_tps": 45.06,
+      "avg_ttft_ms": 859.57,
+      "p95_ttft_ms": 1161.12,
+      "p99_ttft_ms": 1548.97,
+      "accuracy_rate": 0.885,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 9,
+      "avg_tps": 43.2,
+      "avg_ttft_ms": 850.77,
+      "p95_ttft_ms": 1151.78,
+      "p99_ttft_ms": 1539.48,
+      "accuracy_rate": 0.871,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 10,
+      "avg_tps": 43.86,
+      "avg_ttft_ms": 872.02,
+      "p95_ttft_ms": 1189.92,
+      "p99_ttft_ms": 1601.36,
+      "accuracy_rate": 0.88,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 11,
+      "avg_tps": 42.63,
+      "avg_ttft_ms": 929.08,
+      "p95_ttft_ms": 1296.39,
+      "p99_ttft_ms": 1777.67,
+      "accuracy_rate": 0.882,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 12,
+      "avg_tps": 39.98,
+      "avg_ttft_ms": 1084.07,
+      "p95_ttft_ms": 1588.05,
+      "p99_ttft_ms": 2262.72,
+      "accuracy_rate": 0.861,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 13,
+      "avg_tps": 37.91,
+      "avg_ttft_ms": 1320.91,
+      "p95_ttft_ms": 2096.01,
+      "p99_ttft_ms": 3159.6,
+      "accuracy_rate": 0.837,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 14,
+      "avg_tps": 35.31,
+      "avg_ttft_ms": 1634.81,
+      "p95_ttft_ms": 2855.86,
+      "p99_ttft_ms": 4564.83,
+      "accuracy_rate": 0.83,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 15,
+      "avg_tps": 31.01,
+      "avg_ttft_ms": 1929.07,
+      "p95_ttft_ms": 3648.08,
+      "p99_ttft_ms": 6081.92,
+      "accuracy_rate": 0.818,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 16,
+      "avg_tps": 25.92,
+      "avg_ttft_ms": 2036.41,
+      "p95_ttft_ms": 3971.0,
+      "p99_ttft_ms": 6720.16,
+      "accuracy_rate": 0.794,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 17,
+      "avg_tps": 30.99,
+      "avg_ttft_ms": 1930.81,
+      "p95_ttft_ms": 3651.37,
+      "p99_ttft_ms": 6087.4,
+      "accuracy_rate": 0.826,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 18,
+      "avg_tps": 34.68,
+      "avg_ttft_ms": 1634.77,
+      "p95_ttft_ms": 2855.8,
+      "p99_ttft_ms": 4564.73,
+      "accuracy_rate": 0.829,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 19,
+      "avg_tps": 37.13,
+      "avg_ttft_ms": 1322.73,
+      "p95_ttft_ms": 2098.9,
+      "p99_ttft_ms": 3163.95,
+      "accuracy_rate": 0.837,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 20,
+      "avg_tps": 39.84,
+      "avg_ttft_ms": 1075.95,
+      "p95_ttft_ms": 1576.16,
+      "p99_ttft_ms": 2245.78,
+      "accuracy_rate": 0.858,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 21,
+      "avg_tps": 43.32,
+      "avg_ttft_ms": 945.31,
+      "p95_ttft_ms": 1319.03,
+      "p99_ttft_ms": 1808.71,
+      "accuracy_rate": 0.861,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 22,
+      "avg_tps": 43.1,
+      "avg_ttft_ms": 877.89,
+      "p95_ttft_ms": 1197.93,
+      "p99_ttft_ms": 1612.14,
+      "accuracy_rate": 0.883,
+      "sample_count": 480
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "hour_utc": 23,
+      "avg_tps": 44.47,
+      "avg_ttft_ms": 843.35,
+      "p95_ttft_ms": 1141.72,
+      "p99_ttft_ms": 1526.03,
+      "accuracy_rate": 0.882,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 0,
+      "avg_tps": 81.06,
+      "avg_ttft_ms": 418.5,
+      "p95_ttft_ms": 565.31,
+      "p99_ttft_ms": 754.14,
+      "accuracy_rate": 0.96,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 1,
+      "avg_tps": 82.54,
+      "avg_ttft_ms": 428.27,
+      "p95_ttft_ms": 578.22,
+      "p99_ttft_ms": 771.04,
+      "accuracy_rate": 0.97,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 2,
+      "avg_tps": 82.21,
+      "avg_ttft_ms": 427.26,
+      "p95_ttft_ms": 576.8,
+      "p99_ttft_ms": 769.08,
+      "accuracy_rate": 0.977,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 3,
+      "avg_tps": 80.3,
+      "avg_ttft_ms": 405.29,
+      "p95_ttft_ms": 547.15,
+      "p99_ttft_ms": 729.53,
+      "accuracy_rate": 0.995,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 4,
+      "avg_tps": 82.18,
+      "avg_ttft_ms": 432.12,
+      "p95_ttft_ms": 583.36,
+      "p99_ttft_ms": 777.81,
+      "accuracy_rate": 0.993,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 5,
+      "avg_tps": 80.59,
+      "avg_ttft_ms": 422.48,
+      "p95_ttft_ms": 570.35,
+      "p99_ttft_ms": 760.46,
+      "accuracy_rate": 0.965,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 6,
+      "avg_tps": 83.59,
+      "avg_ttft_ms": 414.27,
+      "p95_ttft_ms": 559.27,
+      "p99_ttft_ms": 745.7,
+      "accuracy_rate": 0.992,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 7,
+      "avg_tps": 83.59,
+      "avg_ttft_ms": 430.96,
+      "p95_ttft_ms": 581.85,
+      "p99_ttft_ms": 775.87,
+      "accuracy_rate": 0.968,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 8,
+      "avg_tps": 80.37,
+      "avg_ttft_ms": 413.28,
+      "p95_ttft_ms": 558.26,
+      "p99_ttft_ms": 744.73,
+      "accuracy_rate": 0.991,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 9,
+      "avg_tps": 81.43,
+      "avg_ttft_ms": 435.25,
+      "p95_ttft_ms": 589.24,
+      "p99_ttft_ms": 787.58,
+      "accuracy_rate": 0.984,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 10,
+      "avg_tps": 82.96,
+      "avg_ttft_ms": 423.9,
+      "p95_ttft_ms": 578.44,
+      "p99_ttft_ms": 778.45,
+      "accuracy_rate": 0.993,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 11,
+      "avg_tps": 80.89,
+      "avg_ttft_ms": 478.72,
+      "p95_ttft_ms": 667.98,
+      "p99_ttft_ms": 915.97,
+      "accuracy_rate": 0.989,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 12,
+      "avg_tps": 76.98,
+      "avg_ttft_ms": 518.34,
+      "p95_ttft_ms": 759.32,
+      "p99_ttft_ms": 1081.91,
+      "accuracy_rate": 0.958,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 13,
+      "avg_tps": 70.91,
+      "avg_ttft_ms": 664.98,
+      "p95_ttft_ms": 1055.18,
+      "p99_ttft_ms": 1590.62,
+      "accuracy_rate": 0.963,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 14,
+      "avg_tps": 60.45,
+      "avg_ttft_ms": 818.29,
+      "p95_ttft_ms": 1429.48,
+      "p99_ttft_ms": 2284.9,
+      "accuracy_rate": 0.939,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 15,
+      "avg_tps": 55.39,
+      "avg_ttft_ms": 938.53,
+      "p95_ttft_ms": 1774.87,
+      "p99_ttft_ms": 2958.98,
+      "accuracy_rate": 0.922,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 16,
+      "avg_tps": 52.11,
+      "avg_ttft_ms": 999.67,
+      "p95_ttft_ms": 1949.36,
+      "p99_ttft_ms": 3298.92,
+      "accuracy_rate": 0.898,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 17,
+      "avg_tps": 55.08,
+      "avg_ttft_ms": 944.44,
+      "p95_ttft_ms": 1786.05,
+      "p99_ttft_ms": 2977.62,
+      "accuracy_rate": 0.897,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 18,
+      "avg_tps": 60.16,
+      "avg_ttft_ms": 794.68,
+      "p95_ttft_ms": 1388.23,
+      "p99_ttft_ms": 2218.96,
+      "accuracy_rate": 0.92,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 19,
+      "avg_tps": 71.57,
+      "avg_ttft_ms": 662.99,
+      "p95_ttft_ms": 1052.02,
+      "p99_ttft_ms": 1585.85,
+      "accuracy_rate": 0.94,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 20,
+      "avg_tps": 75.63,
+      "avg_ttft_ms": 536.84,
+      "p95_ttft_ms": 786.42,
+      "p99_ttft_ms": 1120.52,
+      "accuracy_rate": 0.984,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 21,
+      "avg_tps": 81.4,
+      "avg_ttft_ms": 465.52,
+      "p95_ttft_ms": 649.57,
+      "p99_ttft_ms": 890.72,
+      "accuracy_rate": 0.959,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 22,
+      "avg_tps": 79.96,
+      "avg_ttft_ms": 448.38,
+      "p95_ttft_ms": 611.83,
+      "p99_ttft_ms": 823.39,
+      "accuracy_rate": 0.997,
+      "sample_count": 480
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "hour_utc": 23,
+      "avg_tps": 80.24,
+      "avg_ttft_ms": 416.69,
+      "p95_ttft_ms": 564.11,
+      "p99_ttft_ms": 754.0,
+      "accuracy_rate": 0.977,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 0,
+      "avg_tps": 318.68,
+      "avg_ttft_ms": 158.0,
+      "p95_ttft_ms": 213.42,
+      "p99_ttft_ms": 284.71,
+      "accuracy_rate": 0.921,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 1,
+      "avg_tps": 318.78,
+      "avg_ttft_ms": 166.95,
+      "p95_ttft_ms": 225.41,
+      "p99_ttft_ms": 300.57,
+      "accuracy_rate": 0.912,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 2,
+      "avg_tps": 320.6,
+      "avg_ttft_ms": 174.86,
+      "p95_ttft_ms": 236.07,
+      "p99_ttft_ms": 314.76,
+      "accuracy_rate": 0.918,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 3,
+      "avg_tps": 318.48,
+      "avg_ttft_ms": 160.53,
+      "p95_ttft_ms": 216.71,
+      "p99_ttft_ms": 288.95,
+      "accuracy_rate": 0.909,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 4,
+      "avg_tps": 320.35,
+      "avg_ttft_ms": 155.14,
+      "p95_ttft_ms": 209.44,
+      "p99_ttft_ms": 279.26,
+      "accuracy_rate": 0.909,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 5,
+      "avg_tps": 318.28,
+      "avg_ttft_ms": 151.61,
+      "p95_ttft_ms": 204.67,
+      "p99_ttft_ms": 272.89,
+      "accuracy_rate": 0.925,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 6,
+      "avg_tps": 321.62,
+      "avg_ttft_ms": 151.88,
+      "p95_ttft_ms": 205.03,
+      "p99_ttft_ms": 273.38,
+      "accuracy_rate": 0.934,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 7,
+      "avg_tps": 318.92,
+      "avg_ttft_ms": 147.18,
+      "p95_ttft_ms": 198.71,
+      "p99_ttft_ms": 264.97,
+      "accuracy_rate": 0.927,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 8,
+      "avg_tps": 318.37,
+      "avg_ttft_ms": 151.73,
+      "p95_ttft_ms": 204.96,
+      "p99_ttft_ms": 273.42,
+      "accuracy_rate": 0.937,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 9,
+      "avg_tps": 319.12,
+      "avg_ttft_ms": 163.55,
+      "p95_ttft_ms": 221.41,
+      "p99_ttft_ms": 295.94,
+      "accuracy_rate": 0.931,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 10,
+      "avg_tps": 315.81,
+      "avg_ttft_ms": 174.66,
+      "p95_ttft_ms": 238.33,
+      "p99_ttft_ms": 320.74,
+      "accuracy_rate": 0.902,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 11,
+      "avg_tps": 310.5,
+      "avg_ttft_ms": 174.86,
+      "p95_ttft_ms": 243.99,
+      "p99_ttft_ms": 334.57,
+      "accuracy_rate": 0.913,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 12,
+      "avg_tps": 297.41,
+      "avg_ttft_ms": 209.77,
+      "p95_ttft_ms": 307.29,
+      "p99_ttft_ms": 437.84,
+      "accuracy_rate": 0.924,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 13,
+      "avg_tps": 271.62,
+      "avg_ttft_ms": 236.35,
+      "p95_ttft_ms": 375.05,
+      "p99_ttft_ms": 565.35,
+      "accuracy_rate": 0.882,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 14,
+      "avg_tps": 238.55,
+      "avg_ttft_ms": 319.03,
+      "p95_ttft_ms": 557.32,
+      "p99_ttft_ms": 890.82,
+      "accuracy_rate": 0.855,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 15,
+      "avg_tps": 210.02,
+      "avg_ttft_ms": 360.47,
+      "p95_ttft_ms": 681.69,
+      "p99_ttft_ms": 1136.49,
+      "accuracy_rate": 0.839,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 16,
+      "avg_tps": 200.09,
+      "avg_ttft_ms": 376.49,
+      "p95_ttft_ms": 734.16,
+      "p99_ttft_ms": 1242.43,
+      "accuracy_rate": 0.838,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 17,
+      "avg_tps": 210.54,
+      "avg_ttft_ms": 372.86,
+      "p95_ttft_ms": 705.11,
+      "p99_ttft_ms": 1175.53,
+      "accuracy_rate": 0.83,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 18,
+      "avg_tps": 240.9,
+      "avg_ttft_ms": 323.16,
+      "p95_ttft_ms": 564.53,
+      "p99_ttft_ms": 902.34,
+      "accuracy_rate": 0.886,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 19,
+      "avg_tps": 273.41,
+      "avg_ttft_ms": 261.19,
+      "p95_ttft_ms": 414.46,
+      "p99_ttft_ms": 624.77,
+      "accuracy_rate": 0.875,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 20,
+      "avg_tps": 295.57,
+      "avg_ttft_ms": 202.46,
+      "p95_ttft_ms": 296.59,
+      "p99_ttft_ms": 422.59,
+      "accuracy_rate": 0.901,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 21,
+      "avg_tps": 310.33,
+      "avg_ttft_ms": 163.69,
+      "p95_ttft_ms": 228.4,
+      "p99_ttft_ms": 313.19,
+      "accuracy_rate": 0.933,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 22,
+      "avg_tps": 318.19,
+      "avg_ttft_ms": 158.39,
+      "p95_ttft_ms": 216.13,
+      "p99_ttft_ms": 290.87,
+      "accuracy_rate": 0.916,
+      "sample_count": 480
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "hour_utc": 23,
+      "avg_tps": 321.06,
+      "avg_ttft_ms": 159.11,
+      "p95_ttft_ms": 215.4,
+      "p99_ttft_ms": 287.91,
+      "accuracy_rate": 0.939,
+      "sample_count": 480
+    }
+  ]
+}

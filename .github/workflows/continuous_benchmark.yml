@@ -38,10 +38,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m livellm.scheduler.cron_probe
+          python -m livellm.storage.export_static
 
-      - name: Commit & Push Updated Telemetry
+      - name: Commit & Push Updated Telemetry (Triggers Netlify Deploy)
         run: |
           git config --global user.name "LiveLLM Autonomous Observatory"
           git config --global user.email "observatory@livellm.ai"
-          git add livellm/storage/livellm.db livellm/storage/catalog_cache.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "telemetry(cron): automated probe update [skip ci]" && git push)
+          git add livellm/storage/livellm.db livellm/storage/catalog_cache.json livellm/frontend/data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "telemetry(cron): automated probe update & Netlify data sync [skip ci]" && git push)

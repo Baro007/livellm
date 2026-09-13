@@ -1,0 +1,54 @@
+# Netlify Configuration for LiveLLM
+# Pure Jamstack Static Deployment with GitHub Continuous Deployment Trigger
+
+[build]
+  publish = "livellm/frontend"
+  command = "echo 'LiveLLM Observatory Jamstack build successful.'"
+
+# Security and Caching Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Telemetry JSON cache policy: fast revalidation (60s) with stale-while-revalidate
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=60, stale-while-revalidate=300"
+    Access-Control-Allow-Origin = "*"
+
+# Static API routing for Netlify CDN (transparently serves exported JSON)
+[[redirects]]
+  from = "/api/models"
+  to = "/data/models.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/alerts"
+  to = "/data/alerts.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/metrics/diurnal"
+  to = "/data/diurnal.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/export/dataset"
+  to = "/data/models.json"
+  status = 200
+
+[[redirects]]
+  from = "/health"
+  to = "/data/meta.json"
+  status = 200
+
+# SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

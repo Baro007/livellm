@@ -1,0 +1,2768 @@
+{
+  "qwen/qwen3.8-27b": {
+    "model_id": "qwen/qwen3.8-27b",
+    "series": [
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 322.96,
+        "avg_ttft_ms": 174.97,
+        "accuracy": 0.925,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 320.21,
+        "avg_ttft_ms": 158.28,
+        "accuracy": 0.917,
+        "ph_score": 0.014,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 319.28,
+        "avg_ttft_ms": 166.19,
+        "accuracy": 0.931,
+        "ph_score": 0.017,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 319.76,
+        "avg_ttft_ms": 178.77,
+        "accuracy": 0.903,
+        "ph_score": 0.043,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 321.54,
+        "avg_ttft_ms": 165.99,
+        "accuracy": 0.912,
+        "ph_score": 0.058,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 322.82,
+        "avg_ttft_ms": 174.37,
+        "accuracy": 0.938,
+        "ph_score": 0.052,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 318.53,
+        "avg_ttft_ms": 168.75,
+        "accuracy": 0.914,
+        "ph_score": 0.068,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 322.98,
+        "avg_ttft_ms": 141.44,
+        "accuracy": 0.933,
+        "ph_score": 0.066,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 321.05,
+        "avg_ttft_ms": 176.84,
+        "accuracy": 0.898,
+        "ph_score": 0.097,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 321.97,
+        "avg_ttft_ms": 157.36,
+        "accuracy": 0.945,
+        "ph_score": 0.083,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 321.07,
+        "avg_ttft_ms": 174.9,
+        "accuracy": 0.9,
+        "ph_score": 0.113,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 321.55,
+        "avg_ttft_ms": 176.14,
+        "accuracy": 0.917,
+        "ph_score": 0.125,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 322.37,
+        "avg_ttft_ms": 151.73,
+        "accuracy": 0.897,
+        "ph_score": 0.155,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 317.16,
+        "avg_ttft_ms": 161.25,
+        "accuracy": 0.914,
+        "ph_score": 0.169,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 322.34,
+        "avg_ttft_ms": 146.8,
+        "accuracy": 0.923,
+        "ph_score": 0.173,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 322.97,
+        "avg_ttft_ms": 164.79,
+        "accuracy": 0.899,
+        "ph_score": 0.201,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 323.3,
+        "avg_ttft_ms": 145.72,
+        "accuracy": 0.907,
+        "ph_score": 0.22,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 318.03,
+        "avg_ttft_ms": 150.21,
+        "accuracy": 0.918,
+        "ph_score": 0.228,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 322.44,
+        "avg_ttft_ms": 176.05,
+        "accuracy": 0.895,
+        "ph_score": 0.258,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 317.26,
+        "avg_ttft_ms": 157.67,
+        "accuracy": 0.929,
+        "ph_score": 0.255,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 320.7,
+        "avg_ttft_ms": 165.56,
+        "accuracy": 0.912,
+        "ph_score": 0.268,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 318.0,
+        "avg_ttft_ms": 173.81,
+        "accuracy": 0.916,
+        "ph_score": 0.277,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 319.08,
+        "avg_ttft_ms": 159.33,
+        "accuracy": 0.905,
+        "ph_score": 0.298,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 320.58,
+        "avg_ttft_ms": 162.99,
+        "accuracy": 0.907,
+        "ph_score": 0.316,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 318.36,
+        "avg_ttft_ms": 179.12,
+        "accuracy": 0.945,
+        "ph_score": 0.297,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 318.2,
+        "avg_ttft_ms": 162.64,
+        "accuracy": 0.928,
+        "ph_score": 0.295,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 321.96,
+        "avg_ttft_ms": 141.96,
+        "accuracy": 0.929,
+        "ph_score": 0.293,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 319.97,
+        "avg_ttft_ms": 176.17,
+        "accuracy": 0.925,
+        "ph_score": 0.295,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 322.39,
+        "avg_ttft_ms": 164.28,
+        "accuracy": 0.909,
+        "ph_score": 0.313,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "qwen/qwen3.8-27b",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 321.09,
+        "avg_ttft_ms": 164.84,
+        "accuracy": 0.913,
+        "ph_score": 0.327,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "groq/compound-mini": {
+    "model_id": "groq/compound-mini",
+    "series": [
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 291.77,
+        "avg_ttft_ms": 196.37,
+        "accuracy": 0.919,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 291.03,
+        "avg_ttft_ms": 206.14,
+        "accuracy": 0.927,
+        "ph_score": 0.006,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 288.47,
+        "avg_ttft_ms": 187.63,
+        "accuracy": 0.917,
+        "ph_score": 0.02,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 291.86,
+        "avg_ttft_ms": 173.61,
+        "accuracy": 0.914,
+        "ph_score": 0.035,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 291.98,
+        "avg_ttft_ms": 177.03,
+        "accuracy": 0.9,
+        "ph_score": 0.061,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 290.32,
+        "avg_ttft_ms": 208.86,
+        "accuracy": 0.892,
+        "ph_score": 0.09,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 293.31,
+        "avg_ttft_ms": 203.22,
+        "accuracy": 0.912,
+        "ph_score": 0.1,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 292.6,
+        "avg_ttft_ms": 189.27,
+        "accuracy": 0.898,
+        "ph_score": 0.122,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 291.97,
+        "avg_ttft_ms": 183.55,
+        "accuracy": 0.925,
+        "ph_score": 0.118,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 293.7,
+        "avg_ttft_ms": 175.63,
+        "accuracy": 0.891,
+        "ph_score": 0.147,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 292.88,
+        "avg_ttft_ms": 198.97,
+        "accuracy": 0.933,
+        "ph_score": 0.135,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 293.74,
+        "avg_ttft_ms": 202.18,
+        "accuracy": 0.934,
+        "ph_score": 0.125,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 292.33,
+        "avg_ttft_ms": 170.56,
+        "accuracy": 0.903,
+        "ph_score": 0.144,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 289.64,
+        "avg_ttft_ms": 196.91,
+        "accuracy": 0.912,
+        "ph_score": 0.155,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 290.68,
+        "avg_ttft_ms": 202.9,
+        "accuracy": 0.919,
+        "ph_score": 0.159,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 286.87,
+        "avg_ttft_ms": 179.35,
+        "accuracy": 0.932,
+        "ph_score": 0.151,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 293.07,
+        "avg_ttft_ms": 192.46,
+        "accuracy": 0.886,
+        "ph_score": 0.188,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 287.77,
+        "avg_ttft_ms": 172.53,
+        "accuracy": 0.931,
+        "ph_score": 0.18,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 293.28,
+        "avg_ttft_ms": 182.09,
+        "accuracy": 0.926,
+        "ph_score": 0.178,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 287.12,
+        "avg_ttft_ms": 207.85,
+        "accuracy": 0.905,
+        "ph_score": 0.197,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 289.94,
+        "avg_ttft_ms": 173.89,
+        "accuracy": 0.9,
+        "ph_score": 0.22,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 287.09,
+        "avg_ttft_ms": 188.15,
+        "accuracy": 0.929,
+        "ph_score": 0.214,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 291.95,
+        "avg_ttft_ms": 207.84,
+        "accuracy": 0.919,
+        "ph_score": 0.22,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 291.94,
+        "avg_ttft_ms": 176.18,
+        "accuracy": 0.906,
+        "ph_score": 0.238,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 286.79,
+        "avg_ttft_ms": 189.57,
+        "accuracy": 0.906,
+        "ph_score": 0.255,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 293.61,
+        "avg_ttft_ms": 171.31,
+        "accuracy": 0.905,
+        "ph_score": 0.273,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 289.55,
+        "avg_ttft_ms": 208.02,
+        "accuracy": 0.904,
+        "ph_score": 0.292,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 286.79,
+        "avg_ttft_ms": 197.43,
+        "accuracy": 0.928,
+        "ph_score": 0.288,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 293.82,
+        "avg_ttft_ms": 184.35,
+        "accuracy": 0.912,
+        "ph_score": 0.299,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "groq/compound-mini",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 287.52,
+        "avg_ttft_ms": 174.89,
+        "accuracy": 0.905,
+        "ph_score": 0.317,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "gemini-3.8-flash": {
+    "model_id": "gemini-3.8-flash",
+    "series": [
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 184.52,
+        "avg_ttft_ms": 197.37,
+        "accuracy": 0.948,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 188.53,
+        "avg_ttft_ms": 209.11,
+        "accuracy": 0.928,
+        "ph_score": 0.02,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 184.21,
+        "avg_ttft_ms": 192.96,
+        "accuracy": 0.966,
+        "ph_score": 0.012,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 181.43,
+        "avg_ttft_ms": 195.97,
+        "accuracy": 0.956,
+        "ph_score": 0.015,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 183.43,
+        "avg_ttft_ms": 229.76,
+        "accuracy": 0.953,
+        "ph_score": 0.022,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 187.12,
+        "avg_ttft_ms": 214.25,
+        "accuracy": 0.931,
+        "ph_score": 0.048,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 182.81,
+        "avg_ttft_ms": 210.9,
+        "accuracy": 0.965,
+        "ph_score": 0.043,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 184.54,
+        "avg_ttft_ms": 224.41,
+        "accuracy": 0.948,
+        "ph_score": 0.055,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 183.44,
+        "avg_ttft_ms": 214.84,
+        "accuracy": 0.975,
+        "ph_score": 0.043,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 186.92,
+        "avg_ttft_ms": 227.9,
+        "accuracy": 0.955,
+        "ph_score": 0.05,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 182.69,
+        "avg_ttft_ms": 216.42,
+        "accuracy": 0.935,
+        "ph_score": 0.075,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 182.39,
+        "avg_ttft_ms": 193.0,
+        "accuracy": 0.933,
+        "ph_score": 0.102,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 184.6,
+        "avg_ttft_ms": 213.75,
+        "accuracy": 0.925,
+        "ph_score": 0.134,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 182.85,
+        "avg_ttft_ms": 218.28,
+        "accuracy": 0.94,
+        "ph_score": 0.152,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 184.63,
+        "avg_ttft_ms": 217.5,
+        "accuracy": 0.96,
+        "ph_score": 0.149,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 187.3,
+        "avg_ttft_ms": 215.0,
+        "accuracy": 0.971,
+        "ph_score": 0.138,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 188.47,
+        "avg_ttft_ms": 207.01,
+        "accuracy": 0.958,
+        "ph_score": 0.139,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 186.18,
+        "avg_ttft_ms": 226.34,
+        "accuracy": 0.952,
+        "ph_score": 0.147,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 181.57,
+        "avg_ttft_ms": 196.64,
+        "accuracy": 0.966,
+        "ph_score": 0.142,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 186.99,
+        "avg_ttft_ms": 212.77,
+        "accuracy": 0.94,
+        "ph_score": 0.161,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 181.99,
+        "avg_ttft_ms": 217.55,
+        "accuracy": 0.939,
+        "ph_score": 0.182,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 188.54,
+        "avg_ttft_ms": 210.02,
+        "accuracy": 0.96,
+        "ph_score": 0.182,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 181.64,
+        "avg_ttft_ms": 191.59,
+        "accuracy": 0.95,
+        "ph_score": 0.193,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 183.58,
+        "avg_ttft_ms": 200.01,
+        "accuracy": 0.947,
+        "ph_score": 0.206,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 188.7,
+        "avg_ttft_ms": 223.44,
+        "accuracy": 0.93,
+        "ph_score": 0.236,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 188.61,
+        "avg_ttft_ms": 229.98,
+        "accuracy": 0.954,
+        "ph_score": 0.241,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 183.16,
+        "avg_ttft_ms": 191.61,
+        "accuracy": 0.959,
+        "ph_score": 0.243,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 184.76,
+        "avg_ttft_ms": 216.06,
+        "accuracy": 0.963,
+        "ph_score": 0.24,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 182.45,
+        "avg_ttft_ms": 213.41,
+        "accuracy": 0.971,
+        "ph_score": 0.23,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-3.8-flash",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 184.93,
+        "avg_ttft_ms": 193.65,
+        "accuracy": 0.957,
+        "ph_score": 0.235,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "gemini-2.5-flash": {
+    "model_id": "gemini-2.5-flash",
+    "series": [
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 158.67,
+        "avg_ttft_ms": 246.81,
+        "accuracy": 0.922,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 158.64,
+        "avg_ttft_ms": 247.75,
+        "accuracy": 0.948,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 163.56,
+        "avg_ttft_ms": 252.54,
+        "accuracy": 0.919,
+        "ph_score": 0.02,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 159.64,
+        "avg_ttft_ms": 232.58,
+        "accuracy": 0.933,
+        "ph_score": 0.029,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 163.76,
+        "avg_ttft_ms": 236.17,
+        "accuracy": 0.921,
+        "ph_score": 0.046,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 163.9,
+        "avg_ttft_ms": 246.31,
+        "accuracy": 0.931,
+        "ph_score": 0.054,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 159.31,
+        "avg_ttft_ms": 227.5,
+        "accuracy": 0.932,
+        "ph_score": 0.062,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 162.05,
+        "avg_ttft_ms": 245.02,
+        "accuracy": 0.923,
+        "ph_score": 0.077,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 157.63,
+        "avg_ttft_ms": 241.97,
+        "accuracy": 0.943,
+        "ph_score": 0.074,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 159.5,
+        "avg_ttft_ms": 247.93,
+        "accuracy": 0.951,
+        "ph_score": 0.065,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 163.79,
+        "avg_ttft_ms": 244.35,
+        "accuracy": 0.911,
+        "ph_score": 0.095,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 157.27,
+        "avg_ttft_ms": 242.03,
+        "accuracy": 0.917,
+        "ph_score": 0.117,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 156.75,
+        "avg_ttft_ms": 259.69,
+        "accuracy": 0.933,
+        "ph_score": 0.124,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 159.69,
+        "avg_ttft_ms": 224.7,
+        "accuracy": 0.951,
+        "ph_score": 0.115,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 159.99,
+        "avg_ttft_ms": 248.66,
+        "accuracy": 0.947,
+        "ph_score": 0.11,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 158.19,
+        "avg_ttft_ms": 253.39,
+        "accuracy": 0.93,
+        "ph_score": 0.122,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 157.95,
+        "avg_ttft_ms": 242.05,
+        "accuracy": 0.954,
+        "ph_score": 0.111,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 163.37,
+        "avg_ttft_ms": 240.33,
+        "accuracy": 0.924,
+        "ph_score": 0.13,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 162.91,
+        "avg_ttft_ms": 231.05,
+        "accuracy": 0.949,
+        "ph_score": 0.124,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 159.32,
+        "avg_ttft_ms": 257.37,
+        "accuracy": 0.945,
+        "ph_score": 0.124,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 162.56,
+        "avg_ttft_ms": 231.31,
+        "accuracy": 0.93,
+        "ph_score": 0.137,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 160.7,
+        "avg_ttft_ms": 259.96,
+        "accuracy": 0.92,
+        "ph_score": 0.161,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 157.19,
+        "avg_ttft_ms": 241.54,
+        "accuracy": 0.929,
+        "ph_score": 0.175,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 160.42,
+        "avg_ttft_ms": 241.74,
+        "accuracy": 0.922,
+        "ph_score": 0.195,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 158.57,
+        "avg_ttft_ms": 227.55,
+        "accuracy": 0.928,
+        "ph_score": 0.21,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 160.57,
+        "avg_ttft_ms": 229.34,
+        "accuracy": 0.94,
+        "ph_score": 0.213,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 156.35,
+        "avg_ttft_ms": 249.79,
+        "accuracy": 0.944,
+        "ph_score": 0.212,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 162.49,
+        "avg_ttft_ms": 235.44,
+        "accuracy": 0.94,
+        "ph_score": 0.216,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 162.57,
+        "avg_ttft_ms": 259.23,
+        "accuracy": 0.938,
+        "ph_score": 0.221,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gemini-2.5-flash",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 156.3,
+        "avg_ttft_ms": 240.09,
+        "accuracy": 0.93,
+        "ph_score": 0.235,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "gpt-4o": {
+    "model_id": "gpt-4o",
+    "series": [
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 95.18,
+        "avg_ttft_ms": 292.64,
+        "accuracy": 0.954,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 95.43,
+        "avg_ttft_ms": 301.37,
+        "accuracy": 0.92,
+        "ph_score": 0.027,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 95.25,
+        "avg_ttft_ms": 326.25,
+        "accuracy": 0.951,
+        "ph_score": 0.028,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 92.67,
+        "avg_ttft_ms": 313.31,
+        "accuracy": 0.959,
+        "ph_score": 0.025,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 92.8,
+        "avg_ttft_ms": 328.71,
+        "accuracy": 0.922,
+        "ph_score": 0.054,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 93.14,
+        "avg_ttft_ms": 313.8,
+        "accuracy": 0.95,
+        "ph_score": 0.057,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 92.48,
+        "avg_ttft_ms": 305.07,
+        "accuracy": 0.962,
+        "ph_score": 0.051,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 96.51,
+        "avg_ttft_ms": 316.8,
+        "accuracy": 0.955,
+        "ph_score": 0.053,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 95.91,
+        "avg_ttft_ms": 317.42,
+        "accuracy": 0.956,
+        "ph_score": 0.054,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 95.17,
+        "avg_ttft_ms": 306.94,
+        "accuracy": 0.941,
+        "ph_score": 0.07,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 92.9,
+        "avg_ttft_ms": 297.21,
+        "accuracy": 0.933,
+        "ph_score": 0.092,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 97.58,
+        "avg_ttft_ms": 309.45,
+        "accuracy": 0.926,
+        "ph_score": 0.121,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 91.1,
+        "avg_ttft_ms": 293.09,
+        "accuracy": 0.926,
+        "ph_score": 0.147,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 90.81,
+        "avg_ttft_ms": 320.83,
+        "accuracy": 0.957,
+        "ph_score": 0.144,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 97.07,
+        "avg_ttft_ms": 291.51,
+        "accuracy": 0.957,
+        "ph_score": 0.141,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 96.13,
+        "avg_ttft_ms": 295.24,
+        "accuracy": 0.932,
+        "ph_score": 0.163,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 91.3,
+        "avg_ttft_ms": 323.25,
+        "accuracy": 0.934,
+        "ph_score": 0.183,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 96.47,
+        "avg_ttft_ms": 296.62,
+        "accuracy": 0.954,
+        "ph_score": 0.183,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 107.57,
+        "avg_ttft_ms": 282.53,
+        "accuracy": 0.772,
+        "ph_score": 0.356,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 107.77,
+        "avg_ttft_ms": 274.7,
+        "accuracy": 0.762,
+        "ph_score": 0.53,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 107.79,
+        "avg_ttft_ms": 279.68,
+        "accuracy": 0.787,
+        "ph_score": 0.672,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 109.95,
+        "avg_ttft_ms": 278.38,
+        "accuracy": 0.765,
+        "ph_score": 0.829,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 107.31,
+        "avg_ttft_ms": 287.94,
+        "accuracy": 0.792,
+        "ph_score": 0.955,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 107.87,
+        "avg_ttft_ms": 274.64,
+        "accuracy": 0.799,
+        "ph_score": 1.068,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 108.26,
+        "avg_ttft_ms": 288.33,
+        "accuracy": 0.769,
+        "ph_score": 1.207,
+        "is_nerf_alert": 1
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 109.91,
+        "avg_ttft_ms": 271.77,
+        "accuracy": 0.791,
+        "ph_score": 1.319,
+        "is_nerf_alert": 1
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 108.95,
+        "avg_ttft_ms": 286.48,
+        "accuracy": 0.763,
+        "ph_score": 1.455,
+        "is_nerf_alert": 1
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 105.72,
+        "avg_ttft_ms": 285.92,
+        "accuracy": 0.778,
+        "ph_score": 1.572,
+        "is_nerf_alert": 1
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 106.81,
+        "avg_ttft_ms": 284.26,
+        "accuracy": 0.793,
+        "ph_score": 1.671,
+        "is_nerf_alert": 1
+      },
+      {
+        "model_id": "gpt-4o",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 110.53,
+        "avg_ttft_ms": 271.95,
+        "accuracy": 0.764,
+        "ph_score": 1.795,
+        "is_nerf_alert": 1
+      }
+    ],
+    "alerts": [
+      {
+        "id": 13,
+        "model_id": "gpt-4o",
+        "detected_at": "2026-09-08T14:22:00Z",
+        "alert_type": "Page-Hinkley Capability Nerf",
+        "metric_affected": "Deterministic Math & Code pass@1",
+        "ph_score": 1.21,
+        "threshold": 1.2,
+        "drop_percentage": 17.4,
+        "details": "Statistically significant capability erosion detected following provider backend quantization and RLHF re-alignment. Instruction adherence and multi-step symbolic math degraded by 17.4%."
+      }
+    ]
+  },
+  "openai/gpt-6-astra": {
+    "model_id": "openai/gpt-6-astra",
+    "series": [
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 81.64,
+        "avg_ttft_ms": 426.51,
+        "accuracy": 0.997,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 82.78,
+        "avg_ttft_ms": 400.85,
+        "accuracy": 0.987,
+        "ph_score": 0.015,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 79.95,
+        "avg_ttft_ms": 405.04,
+        "accuracy": 0.994,
+        "ph_score": 0.024,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 78.55,
+        "avg_ttft_ms": 430.61,
+        "accuracy": 0.983,
+        "ph_score": 0.041,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 79.73,
+        "avg_ttft_ms": 434.79,
+        "accuracy": 0.965,
+        "ph_score": 0.071,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 79.18,
+        "avg_ttft_ms": 436.02,
+        "accuracy": 0.971,
+        "ph_score": 0.093,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 84.87,
+        "avg_ttft_ms": 405.79,
+        "accuracy": 0.955,
+        "ph_score": 0.127,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 80.01,
+        "avg_ttft_ms": 406.98,
+        "accuracy": 0.961,
+        "ph_score": 0.152,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 78.21,
+        "avg_ttft_ms": 400.59,
+        "accuracy": 0.988,
+        "ph_score": 0.152,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 79.9,
+        "avg_ttft_ms": 412.95,
+        "accuracy": 0.994,
+        "ph_score": 0.148,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 78.42,
+        "avg_ttft_ms": 429.67,
+        "accuracy": 0.964,
+        "ph_score": 0.172,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 83.97,
+        "avg_ttft_ms": 419.05,
+        "accuracy": 0.981,
+        "ph_score": 0.18,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 82.11,
+        "avg_ttft_ms": 404.36,
+        "accuracy": 0.994,
+        "ph_score": 0.176,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 85.56,
+        "avg_ttft_ms": 401.73,
+        "accuracy": 0.98,
+        "ph_score": 0.185,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 84.94,
+        "avg_ttft_ms": 420.86,
+        "accuracy": 0.994,
+        "ph_score": 0.182,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 85.71,
+        "avg_ttft_ms": 402.43,
+        "accuracy": 0.978,
+        "ph_score": 0.194,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 81.21,
+        "avg_ttft_ms": 427.44,
+        "accuracy": 0.979,
+        "ph_score": 0.206,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 85.28,
+        "avg_ttft_ms": 402.94,
+        "accuracy": 0.98,
+        "ph_score": 0.217,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 82.87,
+        "avg_ttft_ms": 402.63,
+        "accuracy": 0.959,
+        "ph_score": 0.247,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 83.06,
+        "avg_ttft_ms": 421.93,
+        "accuracy": 0.969,
+        "ph_score": 0.267,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 85.96,
+        "avg_ttft_ms": 421.22,
+        "accuracy": 0.971,
+        "ph_score": 0.284,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 82.84,
+        "avg_ttft_ms": 403.97,
+        "accuracy": 0.978,
+        "ph_score": 0.295,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 84.82,
+        "avg_ttft_ms": 426.04,
+        "accuracy": 0.99,
+        "ph_score": 0.294,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 83.77,
+        "avg_ttft_ms": 408.6,
+        "accuracy": 0.993,
+        "ph_score": 0.29,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 79.83,
+        "avg_ttft_ms": 413.56,
+        "accuracy": 0.978,
+        "ph_score": 0.302,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 81.33,
+        "avg_ttft_ms": 403.8,
+        "accuracy": 0.978,
+        "ph_score": 0.313,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 83.32,
+        "avg_ttft_ms": 414.97,
+        "accuracy": 0.976,
+        "ph_score": 0.326,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 85.38,
+        "avg_ttft_ms": 402.69,
+        "accuracy": 0.963,
+        "ph_score": 0.352,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 78.75,
+        "avg_ttft_ms": 403.86,
+        "accuracy": 0.997,
+        "ph_score": 0.345,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "openai/gpt-6-astra",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 84.49,
+        "avg_ttft_ms": 422.25,
+        "accuracy": 0.992,
+        "ph_score": 0.343,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "anthropic/claude-fable-5.1": {
+    "model_id": "anthropic/claude-fable-5.1",
+    "series": [
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 75.49,
+        "avg_ttft_ms": 443.19,
+        "accuracy": 0.974,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 73.83,
+        "avg_ttft_ms": 456.61,
+        "accuracy": 0.951,
+        "ph_score": 0.022,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 77.94,
+        "avg_ttft_ms": 458.84,
+        "accuracy": 0.983,
+        "ph_score": 0.018,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 75.8,
+        "avg_ttft_ms": 444.07,
+        "accuracy": 0.993,
+        "ph_score": 0.01,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 72.7,
+        "avg_ttft_ms": 456.27,
+        "accuracy": 0.974,
+        "ph_score": 0.021,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 71.87,
+        "avg_ttft_ms": 463.81,
+        "accuracy": 0.956,
+        "ph_score": 0.047,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 77.1,
+        "avg_ttft_ms": 452.96,
+        "accuracy": 0.963,
+        "ph_score": 0.065,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 77.76,
+        "avg_ttft_ms": 468.98,
+        "accuracy": 0.985,
+        "ph_score": 0.062,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 75.91,
+        "avg_ttft_ms": 455.71,
+        "accuracy": 0.986,
+        "ph_score": 0.06,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 78.43,
+        "avg_ttft_ms": 463.18,
+        "accuracy": 0.946,
+        "ph_score": 0.095,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 72.44,
+        "avg_ttft_ms": 458.11,
+        "accuracy": 0.958,
+        "ph_score": 0.116,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 73.72,
+        "avg_ttft_ms": 430.24,
+        "accuracy": 0.96,
+        "ph_score": 0.135,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 75.53,
+        "avg_ttft_ms": 446.03,
+        "accuracy": 0.988,
+        "ph_score": 0.127,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 76.07,
+        "avg_ttft_ms": 431.23,
+        "accuracy": 0.952,
+        "ph_score": 0.155,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 72.72,
+        "avg_ttft_ms": 446.79,
+        "accuracy": 0.982,
+        "ph_score": 0.153,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 73.96,
+        "avg_ttft_ms": 458.86,
+        "accuracy": 0.962,
+        "ph_score": 0.17,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 75.54,
+        "avg_ttft_ms": 433.4,
+        "accuracy": 0.984,
+        "ph_score": 0.167,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 72.26,
+        "avg_ttft_ms": 454.71,
+        "accuracy": 0.948,
+        "ph_score": 0.199,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 73.18,
+        "avg_ttft_ms": 456.48,
+        "accuracy": 0.979,
+        "ph_score": 0.2,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 74.54,
+        "avg_ttft_ms": 440.93,
+        "accuracy": 0.969,
+        "ph_score": 0.211,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 71.91,
+        "avg_ttft_ms": 447.2,
+        "accuracy": 0.983,
+        "ph_score": 0.208,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 76.43,
+        "avg_ttft_ms": 449.47,
+        "accuracy": 0.959,
+        "ph_score": 0.229,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 71.36,
+        "avg_ttft_ms": 445.81,
+        "accuracy": 0.978,
+        "ph_score": 0.231,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 71.06,
+        "avg_ttft_ms": 442.06,
+        "accuracy": 0.975,
+        "ph_score": 0.236,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 72.1,
+        "avg_ttft_ms": 440.22,
+        "accuracy": 0.956,
+        "ph_score": 0.261,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 71.06,
+        "avg_ttft_ms": 459.88,
+        "accuracy": 0.961,
+        "ph_score": 0.279,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 74.04,
+        "avg_ttft_ms": 458.15,
+        "accuracy": 0.954,
+        "ph_score": 0.304,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 77.67,
+        "avg_ttft_ms": 462.25,
+        "accuracy": 0.97,
+        "ph_score": 0.313,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 77.89,
+        "avg_ttft_ms": 431.69,
+        "accuracy": 0.949,
+        "ph_score": 0.343,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "anthropic/claude-fable-5.1",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 78.37,
+        "avg_ttft_ms": 464.48,
+        "accuracy": 0.946,
+        "ph_score": 0.374,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "deepseek-chat": {
+    "model_id": "deepseek-chat",
+    "series": [
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 71.57,
+        "avg_ttft_ms": 508.88,
+        "accuracy": 0.927,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 66.8,
+        "avg_ttft_ms": 501.07,
+        "accuracy": 0.928,
+        "ph_score": 0.01,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 68.02,
+        "avg_ttft_ms": 509.43,
+        "accuracy": 0.908,
+        "ph_score": 0.033,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 67.0,
+        "avg_ttft_ms": 501.13,
+        "accuracy": 0.955,
+        "ph_score": 0.017,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 70.71,
+        "avg_ttft_ms": 526.0,
+        "accuracy": 0.952,
+        "ph_score": 0.009,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 65.1,
+        "avg_ttft_ms": 511.48,
+        "accuracy": 0.945,
+        "ph_score": 0.01,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 69.57,
+        "avg_ttft_ms": 505.55,
+        "accuracy": 0.946,
+        "ph_score": 0.011,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 67.59,
+        "avg_ttft_ms": 500.21,
+        "accuracy": 0.94,
+        "ph_score": 0.018,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 66.05,
+        "avg_ttft_ms": 533.4,
+        "accuracy": 0.909,
+        "ph_score": 0.053,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 69.82,
+        "avg_ttft_ms": 521.11,
+        "accuracy": 0.932,
+        "ph_score": 0.065,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 66.3,
+        "avg_ttft_ms": 512.05,
+        "accuracy": 0.911,
+        "ph_score": 0.096,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 67.36,
+        "avg_ttft_ms": 531.76,
+        "accuracy": 0.907,
+        "ph_score": 0.129,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 64.89,
+        "avg_ttft_ms": 536.21,
+        "accuracy": 0.928,
+        "ph_score": 0.141,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 64.13,
+        "avg_ttft_ms": 520.62,
+        "accuracy": 0.935,
+        "ph_score": 0.146,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 65.15,
+        "avg_ttft_ms": 517.17,
+        "accuracy": 0.917,
+        "ph_score": 0.168,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 65.92,
+        "avg_ttft_ms": 516.66,
+        "accuracy": 0.936,
+        "ph_score": 0.172,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 64.68,
+        "avg_ttft_ms": 538.99,
+        "accuracy": 0.938,
+        "ph_score": 0.174,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 68.21,
+        "avg_ttft_ms": 520.29,
+        "accuracy": 0.908,
+        "ph_score": 0.205,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 68.43,
+        "avg_ttft_ms": 515.62,
+        "accuracy": 0.954,
+        "ph_score": 0.191,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 69.09,
+        "avg_ttft_ms": 539.24,
+        "accuracy": 0.929,
+        "ph_score": 0.202,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 64.13,
+        "avg_ttft_ms": 531.54,
+        "accuracy": 0.918,
+        "ph_score": 0.224,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 69.86,
+        "avg_ttft_ms": 525.13,
+        "accuracy": 0.922,
+        "ph_score": 0.241,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 69.88,
+        "avg_ttft_ms": 513.3,
+        "accuracy": 0.944,
+        "ph_score": 0.238,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 68.37,
+        "avg_ttft_ms": 532.54,
+        "accuracy": 0.907,
+        "ph_score": 0.269,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 70.23,
+        "avg_ttft_ms": 518.58,
+        "accuracy": 0.914,
+        "ph_score": 0.294,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 69.05,
+        "avg_ttft_ms": 532.46,
+        "accuracy": 0.94,
+        "ph_score": 0.293,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 70.21,
+        "avg_ttft_ms": 518.31,
+        "accuracy": 0.908,
+        "ph_score": 0.323,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 64.35,
+        "avg_ttft_ms": 507.98,
+        "accuracy": 0.92,
+        "ph_score": 0.341,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 71.47,
+        "avg_ttft_ms": 520.62,
+        "accuracy": 0.907,
+        "ph_score": 0.371,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "deepseek-chat",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 68.34,
+        "avg_ttft_ms": 510.13,
+        "accuracy": 0.954,
+        "ph_score": 0.354,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  },
+  "nvidia/nemotron-3.5-lightning:free": {
+    "model_id": "nvidia/nemotron-3.5-lightning:free",
+    "series": [
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-15",
+        "day_index": 1,
+        "avg_tps": 45.59,
+        "avg_ttft_ms": 858.38,
+        "accuracy": 0.884,
+        "ph_score": 0.0,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-16",
+        "day_index": 2,
+        "avg_tps": 41.92,
+        "avg_ttft_ms": 830.83,
+        "accuracy": 0.876,
+        "ph_score": 0.014,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-17",
+        "day_index": 3,
+        "avg_tps": 47.41,
+        "avg_ttft_ms": 854.73,
+        "accuracy": 0.871,
+        "ph_score": 0.03,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-18",
+        "day_index": 4,
+        "avg_tps": 48.36,
+        "avg_ttft_ms": 833.53,
+        "accuracy": 0.897,
+        "ph_score": 0.025,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-19",
+        "day_index": 5,
+        "avg_tps": 42.95,
+        "avg_ttft_ms": 853.55,
+        "accuracy": 0.897,
+        "ph_score": 0.023,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-20",
+        "day_index": 6,
+        "avg_tps": 44.17,
+        "avg_ttft_ms": 842.41,
+        "accuracy": 0.881,
+        "ph_score": 0.036,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-21",
+        "day_index": 7,
+        "avg_tps": 43.66,
+        "avg_ttft_ms": 836.73,
+        "accuracy": 0.872,
+        "ph_score": 0.056,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-22",
+        "day_index": 8,
+        "avg_tps": 41.91,
+        "avg_ttft_ms": 850.4,
+        "accuracy": 0.881,
+        "ph_score": 0.068,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-23",
+        "day_index": 9,
+        "avg_tps": 43.8,
+        "avg_ttft_ms": 859.1,
+        "accuracy": 0.9,
+        "ph_score": 0.062,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-24",
+        "day_index": 10,
+        "avg_tps": 47.52,
+        "avg_ttft_ms": 839.45,
+        "accuracy": 0.896,
+        "ph_score": 0.062,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-25",
+        "day_index": 11,
+        "avg_tps": 42.58,
+        "avg_ttft_ms": 854.1,
+        "accuracy": 0.862,
+        "ph_score": 0.093,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-26",
+        "day_index": 12,
+        "avg_tps": 46.24,
+        "avg_ttft_ms": 837.09,
+        "accuracy": 0.893,
+        "ph_score": 0.094,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-27",
+        "day_index": 13,
+        "avg_tps": 44.95,
+        "avg_ttft_ms": 860.18,
+        "accuracy": 0.894,
+        "ph_score": 0.095,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-28",
+        "day_index": 14,
+        "avg_tps": 44.59,
+        "avg_ttft_ms": 866.97,
+        "accuracy": 0.893,
+        "ph_score": 0.098,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-29",
+        "day_index": 15,
+        "avg_tps": 46.08,
+        "avg_ttft_ms": 854.98,
+        "accuracy": 0.883,
+        "ph_score": 0.11,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-30",
+        "day_index": 16,
+        "avg_tps": 46.02,
+        "avg_ttft_ms": 836.04,
+        "accuracy": 0.898,
+        "ph_score": 0.108,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-08-31",
+        "day_index": 17,
+        "avg_tps": 44.54,
+        "avg_ttft_ms": 842.11,
+        "accuracy": 0.858,
+        "ph_score": 0.144,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-01",
+        "day_index": 18,
+        "avg_tps": 41.45,
+        "avg_ttft_ms": 850.29,
+        "accuracy": 0.869,
+        "ph_score": 0.169,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-02",
+        "day_index": 19,
+        "avg_tps": 44.62,
+        "avg_ttft_ms": 832.28,
+        "accuracy": 0.871,
+        "ph_score": 0.191,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-03",
+        "day_index": 20,
+        "avg_tps": 41.61,
+        "avg_ttft_ms": 864.57,
+        "accuracy": 0.897,
+        "ph_score": 0.188,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-04",
+        "day_index": 21,
+        "avg_tps": 45.92,
+        "avg_ttft_ms": 850.28,
+        "accuracy": 0.898,
+        "ph_score": 0.185,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-05",
+        "day_index": 22,
+        "avg_tps": 45.43,
+        "avg_ttft_ms": 861.67,
+        "accuracy": 0.878,
+        "ph_score": 0.2,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-06",
+        "day_index": 23,
+        "avg_tps": 44.6,
+        "avg_ttft_ms": 862.39,
+        "accuracy": 0.9,
+        "ph_score": 0.195,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-07",
+        "day_index": 24,
+        "avg_tps": 43.57,
+        "avg_ttft_ms": 849.03,
+        "accuracy": 0.888,
+        "ph_score": 0.203,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-08",
+        "day_index": 25,
+        "avg_tps": 41.49,
+        "avg_ttft_ms": 834.14,
+        "accuracy": 0.863,
+        "ph_score": 0.234,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-09",
+        "day_index": 26,
+        "avg_tps": 43.75,
+        "avg_ttft_ms": 858.57,
+        "accuracy": 0.9,
+        "ph_score": 0.229,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-10",
+        "day_index": 27,
+        "avg_tps": 42.38,
+        "avg_ttft_ms": 839.91,
+        "accuracy": 0.88,
+        "ph_score": 0.243,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-11",
+        "day_index": 28,
+        "avg_tps": 44.52,
+        "avg_ttft_ms": 850.91,
+        "accuracy": 0.877,
+        "ph_score": 0.26,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-12",
+        "day_index": 29,
+        "avg_tps": 43.98,
+        "avg_ttft_ms": 841.32,
+        "accuracy": 0.863,
+        "ph_score": 0.29,
+        "is_nerf_alert": 0
+      },
+      {
+        "model_id": "nvidia/nemotron-3.5-lightning:free",
+        "date_str": "2026-09-13",
+        "day_index": 30,
+        "avg_tps": 43.71,
+        "avg_ttft_ms": 853.92,
+        "accuracy": 0.875,
+        "ph_score": 0.308,
+        "is_nerf_alert": 0
+      }
+    ],
+    "alerts": []
+  }
+}

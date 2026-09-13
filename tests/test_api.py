@@ -2,6 +2,7 @@
 LiveLLM - Tests for FastAPI Endpoints
 """
 
+import os
 import pytest
 from starlette.testclient import TestClient
 from livellm.api.main import app
@@ -103,3 +104,16 @@ def test_provider_detection_logic():
     assert detect_provider("claude-3-5-sonnet") == "anthropic"
     assert detect_provider("deepseek-chat") == "deepseek"
     assert detect_provider("gpt-4o") == "openai"
+
+
+def test_export_static_data(tmp_path):
+    from livellm.storage.export_static import export_static_data
+    out_dir = str(tmp_path / "static_test_data")
+    export_static_data(output_dir=out_dir)
+    assert os.path.exists(os.path.join(out_dir, "models.json"))
+    assert os.path.exists(os.path.join(out_dir, "alerts.json"))
+    assert os.path.exists(os.path.join(out_dir, "diurnal.json"))
+    assert os.path.exists(os.path.join(out_dir, "drift.json"))
+    assert os.path.exists(os.path.join(out_dir, "latency.json"))
+    assert os.path.exists(os.path.join(out_dir, "meta.json"))
+

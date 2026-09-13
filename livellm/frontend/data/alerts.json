@@ -1,0 +1,17 @@
+{
+  "alerts": [
+    {
+      "id": 13,
+      "model_id": "gpt-4o",
+      "detected_at": "2026-09-08T14:22:00Z",
+      "alert_type": "Page-Hinkley Capability Nerf",
+      "metric_affected": "Deterministic Math & Code pass@1",
+      "ph_score": 1.21,
+      "threshold": 1.2,
+      "drop_percentage": 17.4,
+      "details": "Statistically significant capability erosion detected following provider backend quantization and RLHF re-alignment. Instruction adherence and multi-step symbolic math degraded by 17.4%.",
+      "model_name": "GPT-4o (OpenAI Standard)",
+      "provider": "OpenAI / OpenRouter"
+    }
+  ]
+}

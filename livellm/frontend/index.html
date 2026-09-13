@@ -3,7 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LiveLLM - Gerçek Zamanlı LLM Kıyaslama ve Performans Takip Platformu</title>
+  <title>LiveLLM - Gerçek Zamanlı LLM Kıyaslama ve Model Gözlemevi</title>
+  
+  <!-- SEO & Open Graph for Social Sharing (LinkedIn, Twitter, WhatsApp) -->
+  <meta name="description" content="Büyük Dil Modellerinde (LLM) performans bozulması (nerf), gün içi yoğunluk dalgalanmaları (14:00-18:00 UTC) ve gerçek zamanlı hız takibi. Bağımsız açık amme hizmeti.">
+  <meta property="og:title" content="LiveLLM: Sürekli LLM Kıyaslama & Nerf Gözlemevi">
+  <meta property="og:description" content="LLM modelleri zamanla zayıflıyor mu? Yoğun saatlerde ne kadar yavaşlıyor? Her 10 dakikada bir bağımsız ölçüm.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://livellm.ai">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#07090e">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +24,7 @@
 <body>
   <div class="app-container">
 
-    <!-- TOP NAV / HEADER -->
+    <!-- TOP NAVBAR -->
     <header class="navbar">
       <div class="nav-left">
         <div class="brand">
@@ -25,7 +36,7 @@
       </div>
 
       <div class="nav-right">
-        <!-- 10 MINUTE NEXT PROBE COUNTDOWN -->
+        <!-- 10-MINUTE COUNTDOWN -->
         <div class="countdown-pill" title="GitHub Actions üzerinde her 10 dakikada bir otomatik ölçüm yapılır">
           <span class="countdown-icon">⏱️</span>
           <span class="countdown-label">Sonraki Ölçüm:</span>
@@ -44,40 +55,40 @@
           <span id="traffic-status-text">Trafik Kontrol Ediliyor</span>
         </div>
 
-        <!-- ACTIONS -->
+        <!-- ACTION LINKS -->
         <div class="nav-actions">
-          <a href="https://github.com/Baro007/livellm" target="_blank" class="icon-btn" title="GitHub Kaynak Kodu">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <a href="https://github.com/Baro007/livellm" target="_blank" class="icon-btn" title="GitHub Deposu">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
             GitHub
           </a>
-          <a href="/api/export/dataset" target="_blank" class="icon-btn" title="Açık Veri İndir">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <a href="/data/models.json" target="_blank" class="icon-btn" title="Açık Veri İndir">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
             Veri (.JSON)
           </a>
-          <button id="btn-refresh-all" class="icon-btn" title="Verileri Yenile">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+          <button id="btn-refresh-all" class="icon-btn" title="Yenile">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
           </button>
         </div>
       </div>
     </header>
 
-    <!-- CRITICAL ALERTS BANNER -->
+    <!-- CRITICAL ALERTS -->
     <section id="alerts-container" class="alerts-wrapper" style="display: none;"></section>
 
-    <!-- KPI STATS SUMMARY -->
+    <!-- ECOSYSTEM HIGHLIGHTS (4 KPIs) -->
     <section class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-header">
           <span class="kpi-title">Takip Edilen Model</span>
           <span class="kpi-icon">🤖</span>
         </div>
-        <div class="kpi-value">9 Aktif Model</div>
+        <div class="kpi-value" id="kpi-total-models">9 Model</div>
         <div class="kpi-sub">Google, Groq, OpenRouter & OpenAI</div>
       </div>
 
       <div class="kpi-card highlight">
         <div class="kpi-header">
-          <span class="kpi-title">Lider Çıkarım Hızı</span>
+          <span class="kpi-title">En Hızlı Çıkarım</span>
           <span class="kpi-icon">⚡</span>
         </div>
         <div class="kpi-value text-accent">320 TPS</div>
@@ -89,7 +100,7 @@
           <span class="kpi-title">Zirve Yoğunluk Kaybı</span>
           <span class="kpi-icon">📉</span>
         </div>
-        <div class="kpi-value text-amber">-%35 Hız Düşüşü</div>
+        <div class="kpi-value text-amber">-%35 Hız</div>
         <div class="kpi-sub">14:00 - 18:00 UTC (ABD & AB Zirvesi)</div>
       </div>
 
@@ -99,29 +110,46 @@
           <span class="kpi-icon">⏱️</span>
         </div>
         <div class="kpi-value text-green">Her 10 Dakika</div>
-        <div class="kpi-sub">GitHub Actions $0.00 Bulut Cron</div>
+        <div class="kpi-sub">GitHub Actions Otomasyonu ($0.00)</div>
       </div>
     </section>
 
-    <!-- MODELS SECTION -->
+    <!-- SECTION: LIVE MODELS FLEET & FILTER -->
     <section class="section-box">
       <div class="section-title-row">
         <div>
-          <h2 class="section-heading">Canlı Model Filosu</h2>
-          <p class="section-subheading">Her 10 dakikada bir otomatik ölçülen hız, gecikme ve doğruluk durumları</p>
+          <h2 class="section-heading">Canlı Model Filosu ve Performans Durumları</h2>
+          <p class="section-subheading">Sağlayıcıların güncel modelleri, gerçek belirteç hızları (TPS) ve form durumu</p>
         </div>
         <div class="models-legend">
           <span class="legend-item"><span class="legend-dot green"></span> Formunda (Optimal)</span>
-          <span class="legend-item"><span class="legend-dot red"></span> Performans Gerilemesi (Nerf)</span>
+          <span class="legend-item"><span class="legend-dot red"></span> Nerf / Performans Düşüşü</span>
         </div>
       </div>
 
+      <!-- SEARCH & FILTER TOOLBAR -->
+      <div class="fleet-toolbar">
+        <div class="filter-pills" id="provider-filters">
+          <button class="filter-pill active" data-filter="all">Tüm Sağlayıcılar</button>
+          <button class="filter-pill" data-filter="google">Google AI Studio</button>
+          <button class="filter-pill" data-filter="groq">Groq LPU</button>
+          <button class="filter-pill" data-filter="openrouter">OpenRouter</button>
+          <button class="filter-pill" data-filter="openai">OpenAI</button>
+        </div>
+
+        <div class="search-box">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="model-search-input" placeholder="Model ara (örn: Gemini, Qwen, 3.8)...">
+        </div>
+      </div>
+
+      <!-- CARDS GRID -->
       <div id="models-grid" class="models-grid">
-        <!-- Injected dynamically via JS -->
+        <!-- Populated via JS -->
       </div>
     </section>
 
-    <!-- ANALYTICS SECTION (TABS) -->
+    <!-- SECTION: ANALYTICS & INSIGHT CHARTS -->
     <section class="section-box">
       <div class="analytics-header">
         <div class="tab-list">
@@ -137,7 +165,7 @@
         </div>
 
         <div class="tab-filter">
-          <label for="model-selector">Model Filtrele:</label>
+          <label for="model-selector">Model Detayı:</label>
           <select id="model-selector" class="clean-select">
             <option value="gemini-3.8-flash">Gemini 3.8 Flash (Google)</option>
             <option value="gemini-2.5-flash">Gemini 2.5 Flash (Google)</option>
@@ -152,7 +180,7 @@
         </div>
       </div>
 
-      <!-- TAB 1: DIURNAL HEATMAP -->
+      <!-- TAB 1: 24-HOUR DIURNAL HEATMAP -->
       <div id="tab-diurnal" class="tab-content active">
         <div class="chart-info-banner">
           <span class="info-icon">💡</span>
@@ -174,7 +202,7 @@
         </div>
       </div>
 
-      <!-- TAB 3: LATENCY DISTRIBUTION -->
+      <!-- TAB 3: LATENCY PERCENTILES -->
       <div id="tab-latency" class="tab-content">
         <div class="chart-info-banner">
           <span class="info-icon">💡</span>
@@ -186,122 +214,59 @@
       </div>
     </section>
 
-    <!-- INTERACTIVE PLAYGROUND (LIVE PROBE) -->
-    <section class="section-box playground-section">
+    <!-- SECTION: MODEL RECOMMENDATION MATRIX (Hangi Modeli Ne Zaman Kullanmalı?) -->
+    <section class="section-box guide-section">
       <div class="section-title-row">
         <div>
-          <h2 class="section-heading">Canlı Test Konsolu (Interactive Playground)</h2>
-          <p class="section-subheading">İstediğiniz modeli tek tıkla test edin; gerçek ilk yanıt süresini, token hızını ve doğruluğunu canlı ölçün</p>
+          <h2 class="section-heading">🎯 Hangi Modeli Ne Zaman Tercih Etmeli?</h2>
+          <p class="section-subheading">Ölçüm verilerine göre kullanım senaryosu tavsiyeleri</p>
         </div>
       </div>
 
-      <div class="playground-layout">
-        <!-- LEFT: TEST CONFIGURATION -->
-        <div class="playground-controls">
-          <div class="control-row">
-            <label for="probe-model">Hedef Model</label>
-            <select id="probe-model" class="clean-select full-width">
-              <option value="gemini-3.8-flash">Gemini 3.8 Flash (Google AI Studio)</option>
-              <option value="gemini-2.5-flash">Gemini 2.5 Flash (Google AI Studio)</option>
-              <option value="qwen/qwen3.8-27b">Qwen 3.8 27B (Groq LPU - 320 TPS)</option>
-              <option value="groq/compound-mini">Groq Compound-Mini (Groq)</option>
-              <option value="openai/gpt-6-astra">GPT-6 Astra (OpenRouter)</option>
-              <option value="anthropic/claude-fable-5.1">Claude Fable 5.1 (OpenRouter)</option>
-              <option value="nvidia/nemotron-3.5-lightning:free">Nvidia Nemotron 3.5 (:free Sıfır Maliyet)</option>
-              <option value="gpt-4o">GPT-4o (OpenAI / OpenRouter)</option>
-              <option value="deepseek-chat">DeepSeek V3 / V4</option>
-            </select>
-          </div>
-
-          <div class="control-row">
-            <label for="probe-tier">Test Zorluğu</label>
-            <select id="probe-tier" class="clean-select full-width">
-              <option value="1">Kademe 1: Hızlı Nabız (Aritmetik & Katı JSON Şeması)</option>
-              <option value="2">Kademe 2: Mantıksal Akıl Yürütme (SymPy / Kod Sandbox)</option>
-            </select>
-          </div>
-
-          <div class="control-row">
-            <label for="probe-api-key">Özel API Anahtarı <small>(İsteğe bağlı — sunucuda kayıtlı anahtarlar hazır)</small></label>
-            <input type="password" id="probe-api-key" class="clean-input full-width" placeholder="Boş bırakırsanız sistemdeki hazır anahtar kullanılır">
-          </div>
-
-          <div class="control-row-toggle">
-            <label class="clean-toggle">
-              <input type="checkbox" id="probe-nonce" checked>
-              <span class="toggle-track"></span>
-              <span class="toggle-text">Önbellek Kırma (Cache Busting: [Nonce: UUID])</span>
-            </label>
-          </div>
-
-          <button id="btn-run-probe" class="btn-execute full-width">
-            <span class="btn-icon">⚡</span> Canlı Testi Başlat
-          </button>
+      <div class="guide-grid">
+        <div class="guide-card">
+          <div class="guide-badge speed">⚡ Hız & Gerçek Zamanlı Ajanlar</div>
+          <h4>Qwen 3.8 27B / Groq Compound-Mini</h4>
+          <p>300+ TPS belirteç hızı ve 160 ms ilk yanıt süresiyle sesli asistanlar, müşteri destek botları ve gecikmeye duyarlı otonom ajanlar için piyasadaki en kararlı çözümdür.</p>
+          <div class="guide-footer">Tavsiye: 14-18 UTC yoğunluğunda bile sıfır kuyruk beklemesi sunar.</div>
         </div>
 
-        <!-- RIGHT: LIVE TELEMETRY READOUT -->
-        <div class="playground-results">
-          <div class="readout-header">
-            <div class="readout-title">
-              <span>Canlı Telemetri Sonucu</span>
-              <span id="probe-mode-badge" class="badge-mini">Hazır</span>
-            </div>
-            <span id="probe-status-badge" class="status-chip idle">Beklemede</span>
-          </div>
+        <div class="guide-card highlight">
+          <div class="guide-badge logic">🧠 Mantık, Kodlama & Analiz</div>
+          <h4>GPT-6 Astra / Gemini 3.8 Flash</h4>
+          <p>Karmaşık çok adımlı matematik, kod üretimi ve sembolik akıl yürütmede %95+ doğruluk oranı ile en yüksek zeka yoğunluğuna sahip modellerdir.</p>
+          <div class="guide-footer">Tavsiye: 14:00 - 18:00 UTC saatlerinde TTFT gecikmesi 2-3 saniyeye çıkabilir.</div>
+        </div>
 
-          <div class="metrics-strip">
-            <div class="strip-item">
-              <div class="strip-label">İLK YANIT (TTFT)</div>
-              <div id="res-ttft" class="strip-val">-- ms</div>
-              <div class="strip-hint">Kuyruk + Ön Dolum</div>
-            </div>
-            <div class="strip-item highlight">
-              <div class="strip-label">BELİRTEÇ HIZI (TPS)</div>
-              <div id="res-tps" class="strip-val text-accent">-- tps</div>
-              <div class="strip-hint">Evrensel o200k Standart</div>
-            </div>
-            <div class="strip-item">
-              <div class="strip-label">KELİME ARASI (TPOT)</div>
-              <div id="res-tpot" class="strip-val">-- ms</div>
-              <div class="strip-hint">Bellek Hızı</div>
-            </div>
-            <div class="strip-item">
-              <div class="strip-label">ZEMİN DOĞRULUK</div>
-              <div id="res-eval" class="strip-val">--</div>
-              <div id="res-eval-sub" class="strip-hint">SymPy / Sandbox</div>
-            </div>
-          </div>
-
-          <div class="console-box">
-            <div class="console-header">
-              <span>Model Yanıt Akışı (SSE Stream)</span>
-            </div>
-            <pre id="stream-output" class="console-body">// Testi başlattığınızda modelin canlı yanıtı buraya akacaktır...</pre>
-          </div>
+        <div class="guide-card">
+          <div class="guide-badge zero-cost">🆓 Sıfır Maliyetli Amme Projeleri</div>
+          <h4>Nvidia Nemotron 3.5 Lightning (:free)</h4>
+          <p>OpenRouter ücretsiz havuzu üzerinden API maliyeti olmadan çalışan, hobi projeleri ve prototipler için ideal açık topluluk modelidir.</p>
+          <div class="guide-footer">Tavsiye: Ücretsiz kuyruk nedeniyle yoğun saatlerde yanıt süresi uzayabilir.</div>
         </div>
       </div>
     </section>
 
-    <!-- METHODOLOGY EXPLAINER (SIMPLE & CLEAN) -->
+    <!-- SECTION: METHODOLOGY (3 MADDEDE) -->
     <section class="section-box methodology-section">
-      <h3 class="methodology-title">💡 3 Maddede Nasıl Çalışır?</h3>
+      <h3 class="methodology-title">💡 3 Maddede LiveLLM Nasıl Çalışır?</h3>
       <div class="methodology-cards">
         <div class="m-card">
           <div class="m-number">01</div>
           <h4>Model Zayıflaması (Nerf) Nedir?</h4>
-          <p>Büyük şirketler sunucu maliyetlerini düşürmek için modelleri zamanla gizlice küçültür (kuantizasyon, uzman budama). LiveLLM, <strong>Page-Hinkley algoritması</strong> ile bu yetenek kayıplarını istatistiksel olarak kanıtlar.</p>
+          <p>Büyük teknoloji şirketleri sunucu maliyetlerini düşürmek için modelleri zamanla gizlice küçültür (kuantizasyon, uzman budama). LiveLLM, <strong>Page-Hinkley kalite kontrol testi</strong> ile bu gerilemeleri matematiksel olarak belgeler.</p>
         </div>
 
         <div class="m-card">
           <div class="m-number">02</div>
           <h4>Neden 14:00 - 18:00 UTC Yavaş?</h4>
-          <p>Bu saatlerde ABD doğu yakası ve Avrupa mesai saatleri çakışır. Küresel trafik tavan yaptığı için sunucular aşırı yüklenir, belirteç hızları düşer ve yanıt gecikmesi belirgin şekilde artar.</p>
+          <p>Bu saatlerde ABD doğu yakası ve Avrupa mesai saatleri çakışır. Küresel sorgu trafiği tavan yaptığı için GPU bellekleri doyar, ilk belirteç gecikmesi 2 katına çıkar ve hız belirgin oranda düşer.</p>
         </div>
 
         <div class="m-card">
           <div class="m-number">03</div>
-          <h4>Cache Busting Neden Zorunlu?</h4>
-          <p>Yapay zekâ servisleri daha önce sorulmuş soruları önbellekten (cache) anında vererek olduğundan hızlı görünür. İstem başına eklenen <code>[Nonce: UUID4]</code> ile model sıfırdan hesap yapmaya zorlanır.</p>
+          <h4>Cache Busting Neden Şarttır?</h4>
+          <p>Yapay zekâ servisleri önceden sorulmuş soruları önbellekten vererek olduğundan hızlı görünür. İstem başına eklenen <code>[Nonce: UUID4]</code> ile sunucular sıfırdan hesaplama yapmaya zorlanır.</p>
         </div>
       </div>
     </section>
@@ -310,13 +275,13 @@
     <footer class="app-footer">
       <div class="footer-content">
         <div class="footer-brand">
-          <strong>LiveLLM</strong> • Bağımsız LLM Gözlemevi ve Sürekli Kıyaslama Mimarisi
+          <strong>LiveLLM</strong> • Bağımsız LLM Gözlemevi ve Sürekli Kıyaslama Platformu
         </div>
         <div class="footer-author">
           Dr. Sadık Barış Adıgüzel & Antigravity Research
         </div>
         <div class="footer-meta">
-          Açık Kaynak Kodlu (MIT / Open Data Commons) • $0.00 Maliyetli Amme Hizmeti
+          Açık Kaynak Kodlu (MIT) • Netlify Jamstack CDN • Her 10 Dakikada Bir Otomatik Güncelleme
         </div>
       </div>
     </footer>
