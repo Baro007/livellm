@@ -91,7 +91,7 @@ graph TD
 
 ### Seçenek 1: Yerel Olarak Çalıştırma
 ```bash
-git clone https://github.com/sadikbarisadiguzel/livellm.git
+git clone https://github.com/Baro007/livellm.git
 cd livellm
 
 # Başlatma betiği (sanal ortamı otomatik kurar ve sunucuyu açar)
@@ -151,7 +151,7 @@ Bu projeyi akademik araştırmalarınızda veya yayınlarınızda kullanırsanı
   author = {Dr. Sadık Barış Adıgüzel},
   title = {LiveLLM: Continuous Benchmarking, Quantization Drift, and Nerf Detection Platform for Large Language Models},
   year = {2026},
-  url = {https://github.com/sadikbarisadiguzel/livellm}
+  url = {https://github.com/Baro007/livellm}
 }
 ```
 

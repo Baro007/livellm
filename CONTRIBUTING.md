@@ -15,7 +15,7 @@ Thank you for your interest in contributing to **LiveLLM**! We are building an o
    - **Tier 2 (Reasoning Tasks):** Competition-level math problems with `\boxed{...}` ground truths parseable by **SymPy**, or Python algorithms with isolated assertions.
 
 3. **Report a Suspected Nerf Incident:**
-   - Open a [Nerf Incident Report](https://github.com/sadikbarisadiguzel/livellm/issues/new?template=nerf_incident_report.md) with exact prompts, model versions, timestamps, and observed regressions.
+   - Open a [Nerf Incident Report](https://github.com/Baro007/livellm/issues/new?template=nerf_incident_report.md) with exact prompts, model versions, timestamps, and observed regressions.
 
 4. **Run a Citizen Telemetry Probe Node:**
    - Open the web dashboard at `http://localhost:8000` and enable the **"Dağıtık Topluluk Gözlemcisi (Citizen Telemetry)"** toggle. Your browser will contribute real ISP latency measurements from your region at zero cost.
@@ -26,7 +26,7 @@ Thank you for your interest in contributing to **LiveLLM**! We are building an o
 
 ### 1. Clone & Setup
 ```bash
-git clone https://github.com/sadikbarisadiguzel/livellm.git
+git clone https://github.com/Baro007/livellm.git
 cd livellm
 python3 -m venv venv
 source venv/bin/activate

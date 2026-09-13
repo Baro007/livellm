@@ -8,7 +8,7 @@ authors:
 title: "LiveLLM: Measuring Performance Degradation, Quantization Drift, and Temporal Diurnal Fluctuations in Large Language Models"
 version: 1.0.0
 date-released: 2026-09-13
-url: "https://github.com/sadikbarisadiguzel/livellm"
+url: "https://github.com/Baro007/livellm"
 keywords:
   - large language models
   - continuous benchmarking
