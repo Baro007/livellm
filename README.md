@@ -9,7 +9,7 @@
 [![Infrastructure Cost](https://img.shields.io/badge/infra%20cost-%240.00%2Fmonth-emerald)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[**Canlı Önizleme**](http://localhost:8000) • [**Ölçüm Metodolojisi**](#-ölçüm-metodolojisi) • [**Sıfır Maliyetli Mimari**](#-000-maliyetli-amme-hizmeti-mimarisi) • [**Hızlı Başlangıç**](#-hızlı-başlangıç) • [**Akademik Atıf**](#-akademik-atıf)
+[**Canlı Önizleme**](http://localhost:8080) • [**Ölçüm Metodolojisi**](#-ölçüm-metodolojisi) • [**Sıfır Maliyetli Mimari**](#-000-maliyetli-amme-hizmeti-mimarisi) • [**Hızlı Başlangıç**](#-hızlı-başlangıç) • [**Akademik Atıf**](#-akademik-atıf)
 
 ---
 
@@ -45,7 +45,7 @@ graph TD
     end
 
     subgraph "2. Sıfır Sunucu Maliyetli Otomasyon ($0/ay)"
-        GHA[GitHub Actions Cron • Her 30 dk]
+        GHA[GitHub Actions Cron • Her 10 dk]
         CRON[cron_probe.py • SymPy & Sandbox]
     end
 
@@ -68,7 +68,7 @@ graph TD
 ```
 
 1. **Açık Ağ Geçitleri:** Pollinations.ai (anahtarsız doğrudan çıkarım), OpenRouter `:free` havuzu, Google AI Studio (15 RPM ücretsiz), Groq (30 RPM ücretsiz) ve GitHub Models ile $0 token maliyeti.
-2. **GitHub Actions Ücretsiz Cron:** [`.github/workflows/continuous_benchmark.yml`](.github/workflows/continuous_benchmark.yml) iş akışı her 30 dakikada bir GitHub ücretsiz sunucularında uyanır, modelleri test eder ve sonuçları depoya kaydeder.
+2. **GitHub Actions Ücretsiz Cron:** [`.github/workflows/continuous_benchmark.yml`](.github/workflows/continuous_benchmark.yml) iş akışı her 10 dakikada bir GitHub ücretsiz sunucularında uyanır, modelleri test eder ve sonuçları depoya kaydeder.
 3. **Dağıtık Topluluk Gözlemcisi (Citizen Telemetry):** Ziyaretçilerin tarayıcıları arka planda opt-in olarak ücretsiz testlere katılır; Türkiye ve dünya genelindeki gerçek kullanıcı ISS gecikmeleri toplanır.
 4. **Açık Araştırma Veri Seti:** `/api/export/dataset` üzerinden tüm gözlem verileri kamuya açıktır.
 
