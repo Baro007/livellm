@@ -53,12 +53,17 @@ def detect_provider(model_id: str, custom_base_url: Optional[str] = None) -> str
             return "gemini"
         return "openai"
 
+    if model_id.startswith(("gemini-", "models/gemini", "gemma-")):
+        return "gemini"
+    if model_id.startswith("groq/") or model_id in (
+        "qwen/qwen3.8-27b", "qwen/qwen3.6-27b", "allam-2-7b", 
+        "llama-3.3-70b-versatile", "openai/gpt-oss-120b", "openai/gpt-oss-20b"
+    ):
+        return "groq"
+    if ":free" in model_id or "/" in model_id:
+        return "openrouter"
     if model_id.startswith(("claude-", "anthropic/")):
         return "anthropic"
-    if model_id.startswith(("gemini-", "google/")):
-        return "gemini"
-    if "groq" in model_id:
-        return "groq"
     if model_id.startswith("deepseek-"):
         return "deepseek"
     return "openai"

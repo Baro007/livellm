@@ -258,8 +258,9 @@ async def execute_live_probe(req: ProbeRequest):
     # Check for API key (from request or environment)
     import os
     api_key = req.custom_api_key
+    custom_base_url = req.custom_base_url
     if not api_key:
-        provider = detect_provider(req.model_id, req.custom_base_url)
+        provider = detect_provider(req.model_id, custom_base_url)
         env_map = {
             "openai": "OPENAI_API_KEY",
             "anthropic": "ANTHROPIC_API_KEY",
@@ -271,6 +272,11 @@ async def execute_live_probe(req: ProbeRequest):
         target_env = env_map.get(provider, "OPENAI_API_KEY")
         api_key = os.getenv(target_env)
 
+        # Fallback: If specific provider key is absent, only route to OpenRouter if model has OpenRouter slug (contains / or :free)
+        if not api_key and os.getenv("OPENROUTER_API_KEY") and ("/" in req.model_id or ":free" in req.model_id):
+            api_key = os.getenv("OPENROUTER_API_KEY")
+            custom_base_url = "https://openrouter.ai/api/v1"
+
     execution_mode = "real_live_api" if api_key else "calibrated_simulation"
 
     if api_key:
@@ -280,7 +286,7 @@ async def execute_live_probe(req: ProbeRequest):
                 prompt=effective_prompt,
                 collector=collector,
                 api_key=api_key,
-                custom_base_url=req.custom_base_url
+                custom_base_url=custom_base_url
             ):
                 pass
         except Exception as e:

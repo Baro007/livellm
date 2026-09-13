@@ -63,3 +63,43 @@ def test_live_probe_endpoint():
     assert "evaluation" in data
     assert data["telemetry"]["ttft_ms"] > 0
     assert data["telemetry"]["tps"] > 0
+
+
+def test_open_providers_endpoint():
+    client = TestClient(app)
+    response = client.get("/api/open-providers")
+    assert response.status_code == 200
+    data = response.json()
+    assert "gateways" in data
+    assert len(data["gateways"]) >= 4
+
+
+def test_crowd_telemetry_ingest():
+    client = TestClient(app)
+    payload = {
+        "model_id": "gemini-3.8-flash",
+        "ttft_ms": 190.5,
+        "tps": 182.0,
+        "tpot_ms": 5.5,
+        "universal_tokens": 42,
+        "is_correct": True,
+        "region_hint": "Istanbul, TR"
+    }
+    response = client.post("/api/telemetry/crowd", json=payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "ok"
+    assert "run_id" in data
+
+
+def test_provider_detection_logic():
+    from livellm.core.provider_client import detect_provider
+    assert detect_provider("gemini-3.8-flash") == "gemini"
+    assert detect_provider("models/gemini-2.5-flash") == "gemini"
+    assert detect_provider("qwen/qwen3.8-27b") == "groq"
+    assert detect_provider("groq/compound-mini") == "groq"
+    assert detect_provider("nvidia/nemotron-3.5-lightning:free") == "openrouter"
+    assert detect_provider("openai/gpt-6-astra") == "openrouter"
+    assert detect_provider("claude-3-5-sonnet") == "anthropic"
+    assert detect_provider("deepseek-chat") == "deepseek"
+    assert detect_provider("gpt-4o") == "openai"

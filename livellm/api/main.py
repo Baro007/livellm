@@ -10,6 +10,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 
+import livellm.core.config  # Loads .env into os.environ
 from livellm.storage.database import init_db
 from livellm.storage.seed_data import generate_seed_data
 from livellm.api.routes import router as api_router
